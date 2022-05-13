@@ -7,9 +7,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import DownloadIcon from '@mui/icons-material/Download';
-
+import { CircularProgressbar } from 'react-circular-progressbar';
+// import '../node_modules/react-circular-progressbar/dist/styles.css';
 
 const Sidebar = () => {
+    const percentageOne = 80;
+    const percentageTwo = 100; 
+    const percentageThree = 70;
   return (
     <div className={styles.sidebar_container}>
         <div className={styles.sidebar_profilecard}>
@@ -23,6 +27,15 @@ const Sidebar = () => {
         <p><span>Residence :</span><span className={styles.sidebar_details_right}>India</span></p>
         <p><span>City :</span><span className={styles.sidebar_details_right}>Prayagraj</span></p>
         <p><span>DOB :</span><span className={styles.sidebar_details_right}>7 Nov 2001</span></p>
+        </div>
+        <div className={styles.sidebar_lang}>
+            <div className={styles.sidebar_lang_progress}>
+            <div className="row">
+            <div className="col-4"><CircularProgressbar value={percentageOne} text={`${percentageOne}%`} /><br/><p>English</p></div>
+            <div className="col-4"><CircularProgressbar value={percentageTwo} text={`${percentageTwo}%`} /><br/><p>Hindi</p></div>
+            <div className="col-4"><CircularProgressbar value={percentageThree} text={`${percentageThree}%`} /><br/><p>Urdu</p></div>
+            </div>
+            </div>
         </div>
         <div className={styles.sidebar_cvdownload}>
             <a href='#' target='_blank' className='text-decoration-none'>Download CV <DownloadIcon style={{fontSize: "20px"}}/></a>
