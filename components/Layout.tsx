@@ -9,7 +9,10 @@ const Layout = ({ children }) => {
         <div className={styles.layout_margin}>
             <div className="layout_margin_container d-flex">
             <Sidebar/>
+            <div className={styles.home_container}>
             {children}
+                {/* <div className={styles.force_overflow}></div> */}
+            </div>
             <Navbar/>
             </div>
         </div>

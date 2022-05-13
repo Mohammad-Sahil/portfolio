@@ -23,7 +23,7 @@ const Navbar = () => {
             <li><a href='#' className='text-decoration-none d-flex justify-content-center flex-column'><IconButton><ViewQuiltIcon style={{color: "#8C8C8E"}}/></IconButton><p>UI/UX</p></a></li>
             <li><a href='#' className='text-decoration-none d-flex justify-content-center flex-column'><IconButton><GroupIcon style={{color: "#8C8C8E"}}/></IconButton><p>POR</p></a></li>
             <li><a href='#' className='text-decoration-none d-flex justify-content-center flex-column'><IconButton><GroupsIcon style={{color: "#8C8C8E"}}/></IconButton><p>Sessions</p></a></li>
-            <li><a href='#' className='text-decoration-none d-flex justify-content-center flex-column'><IconButton><BrushIcon style={{color: "#8C8C8E"}}/></IconButton><p>DEsign</p></a></li>
+            <li><a href='#' className='text-decoration-none d-flex justify-content-center flex-column'><IconButton><BrushIcon style={{color: "#8C8C8E"}}/></IconButton><p>Design</p></a></li>
             <li><a href='#' className='text-decoration-none d-flex justify-content-center flex-column'><IconButton><ContactPageIcon style={{color: "#8C8C8E"}}/></IconButton><p>Contact</p></a></li>
             </ul>
         </div>

@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
     
       <Layout>
-        <div className={styles.home_container}>
+       
           <div className={styles.home_container_container}>
           <div className={styles.home_banner}>
                <div>
@@ -58,7 +58,7 @@ export default function Home() {
                   <p>Email: sahilmejakhas@gmail.com</p>
             </div>
           </div>
-        </div>
+      
       </Layout>
     </>
   )

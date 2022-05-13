@@ -27,6 +27,7 @@
     padding-bottom: 12px;
     color: #8C8C8E !important;
     text-align: center;
+    text-transform: uppercase;
 }
 .nav_menu ul li::after{
     position: absolute;
