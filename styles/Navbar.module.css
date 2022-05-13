@@ -1,0 +1,39 @@
+.navbar_container{
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    width: 90px;
+    height: calc(100vh - 30px);
+    background-color: #24242E;
+    position: relative;
+}
+.nav_menu{
+    height: calc(100% - 18px);
+    margin: 9px;
+    background-color: #2C2C38;
+    border-radius: 4px;
+    font-size: 11px;
+}
+.nav_menu ul{
+    list-style: none;
+}
+.nav_menu ul li{
+    display: block;
+    /* background-color: red; */
+    position: relative;
+}
+.nav_menu ul p{
+    margin-bottom: 0 !important;
+    margin-top: -13px;
+    padding-bottom: 12px;
+    color: #8C8C8E !important;
+    text-align: center;
+}
+.nav_menu ul li::after{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 1px;
+    content: '';
+    background-color: #1d1d24c1;
+}

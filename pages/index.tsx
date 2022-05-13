@@ -13,8 +13,10 @@ export default function Home() {
       </Head>
     
       <Layout>
-        <div className='center_content'>
-          Center Content
+        <div className={styles.home_container}>
+          <div className={styles.home_banner}>
+
+          </div>
         </div>
       </Layout>
     </>

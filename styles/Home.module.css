@@ -1,4 +1,11 @@
-.containerr {
+.home_container {
   padding: 0 2rem;
+  background-color: red;
 }
-
+.home_banner{
+  margin: 62px 25px;
+  padding: 70px 60px;
+  width: 100%;
+  background: #252531;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+}
