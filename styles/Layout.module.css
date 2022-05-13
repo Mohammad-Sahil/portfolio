@@ -1,0 +1,9 @@
+.layout_container{
+    height: 100vh !important;
+    width: 100vw !important;
+    background: #191923;
+  }
+  .layout_container .layout_margin{
+    padding: 15px;
+    background: #191923;
+  }
