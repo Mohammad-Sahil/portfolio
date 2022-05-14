@@ -83,3 +83,20 @@ a {
 .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
   stroke: transparent;
 }
+
+
+.home_footer{
+  padding: 20px;
+  color: #9C9CA2;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background: linear-gradient(95.32deg, #252532 0%, #242430 100%);
+}
+.home_footer p{
+  margin-bottom: 0;
+}
+.home_footer p:nth-child(2){
+  margin-left: auto;
+  margin-right: 0;
+}

@@ -57,7 +57,7 @@ export default function Home() {
                     </div>
                   </div>
             </div>
-            <div className={styles.home_footer}>
+            <div className='home_footer'>
                   <p>Made with 💜 By Mohammad Sahil | © 2022</p>
                   <p>Email: sahilmejakhas@gmail.com</p>
             </div>
