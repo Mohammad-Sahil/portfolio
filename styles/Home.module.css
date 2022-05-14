@@ -51,6 +51,13 @@
   color: #9C9CA2;
   font-weight: 700;
 }
+.home_banner .home_banner_type{
+  margin: 17px 0;
+  font-size: 17.3431px;
+  line-height: 24px;
+  color: #9C9CA2;
+  display: flex;
+}
 .home_banner p{
   margin-top: 17px;
   font-size: 17.3431px;

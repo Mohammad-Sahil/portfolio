@@ -4,8 +4,10 @@ import Button from "@mui/material/Button"
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 import bannerImg from '../public/bannerImg.png'
+import TypeAnimation from 'react-type-animation';
 
 export default function Home() {
+  
   return (
     <>
       <Head>
@@ -20,7 +22,17 @@ export default function Home() {
           <div className={styles.home_banner}>
                <div>
                <h2>Discover my Amazing<br/>Art Space</h2>
-                <p>&lt;<i>code</i>&gt; <span> I design beautiful interfaces </span> &lt;/<i>code</i>&gt;</p>
+                <div className={styles.home_banner_type}>&lt;<i>code</i>&gt;  <TypeAnimation
+                    cursor={true}
+                    sequence={[
+                      ' I design web interfaces.',
+                      2000,
+                      'I build fully dynamic web applications.',
+                      2000,  
+                    ]}
+                    wrapper="div"
+                    repeat={Infinity}
+                  />&lt;/<i>code</i>&gt;</div>
                 <Button
                   // onClick={openOauth}
                   className={styles.home_button}
