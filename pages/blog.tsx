@@ -13,7 +13,7 @@ export default function Home() {
             <div className={styles.blog_container}>
               <h2>Latest Blogs</h2>
                 <div className="blog_container_blog">
-                    <div className="row mx-auto my-5">
+                    <div className="row mx-auto my-4">
                         <Blog/>
                         <Blog/>
                         <Blog/>
