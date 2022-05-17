@@ -23,6 +23,7 @@
       width: 100%;
       position: relative;
       margin-top: 30px;
+      margin-bottom: 60px;
       /* background-color: rgba(255, 0, 0, 0.236); */
   }
   .project_macframe > img{
@@ -79,4 +80,39 @@
  }
  .macFrame_content_tag_tags span{
     color: #DA6E82;
+ }
+ @media(max-width: 768px){
+     .project_macframe > img{
+         display: none;
+     }
+     .project_container{
+         /* overflow-x: hidden !important; */
+     }
+     .macFrame_content_tag_tags{
+         /* display: block; */
+     }
+     .macFrame_content{
+         position: static;
+         width: auto;
+         transform: translateX(0);
+     }
+     .macFrame_content_img{
+         width: 100% !important;
+     }
+     .project_container h2{
+         font-size: 24px;
+         margin-top: 15px;
+     }
+     .macFrame_content_details p{
+         font-size: 16px;
+         line-height: 20px;
+         margin-bottom: 25px;
+     }
+     .macFrame_content_tag{
+         height: auto;
+         border-radius: 10px;
+     }
+     .macFrame_content_tag_tags p{
+        float: left;
+     }
  }

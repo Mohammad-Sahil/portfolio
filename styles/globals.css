@@ -162,4 +162,7 @@ a {
     display: flex;
     justify-content: center;
   }
+  .page_title{
+    font-size: 26px !important;
+  }
 }
