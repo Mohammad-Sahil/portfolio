@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Sidebar from './Sidebar'
 import Navbar from './Navbar'
 import styles from '../styles/Layout.module.css'
+import MenuOpenIcon from '@mui/icons-material/MenuOpen'
+import MoreVertIcon from '@mui/icons-material/MoreVert'
 
 const Layout = ({ children }) => {
   return (
@@ -14,6 +16,10 @@ const Layout = ({ children }) => {
   </Head>
     <div className={styles.layout_container}>
         <div className={styles.layout_margin}>
+            <div className={styles.layout_topbar}>
+              <MoreVertIcon style={{marginLeft: "18px",fontSize: "28px"}}/>
+              <MenuOpenIcon style={{marginLeft: "auto", marginRight: "18px",fontSize: "28px"}}/>
+            </div>
             <div className="layout_margin_container d-flex">
             <Sidebar/>
             <div className={styles.home_container}>

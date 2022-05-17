@@ -127,3 +127,46 @@
   margin-left: auto;
   margin-right: 0;
 }
+@media(max-width: 768px){
+  .home_banner{
+    padding: 60px 30px;
+    min-height: 380px;
+  }
+  .home_banner > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home_banner img{
+     display: none;
+  }
+  .home_banner h2{
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .home_banner .home_banner_type{
+    font-size: 11px;
+    margin: 17 auto;
+    text-align: center;
+  }
+  .home_button{
+    padding: 9px 20px !important;
+    border-radius: 0px !important;
+    font-size: 11px;
+    margin: 0 auto !important;
+    width: 130px;
+  }
+  .home_banner p{
+    font-size: 13px;
+  }
+  .home_banner h3{
+    font-size: 24px;
+  }
+  .home_banner span{
+    font-size: 14px;
+  }
+  .home_interest h2{
+    font-size: 24px;
+  }
+}

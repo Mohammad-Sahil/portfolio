@@ -13,7 +13,7 @@ export default function Home() {
           <div className={styles.home_container_container}>
           <div className={styles.home_banner}>
                <div>
-               <h2>Discover my Amazing<br/>Art Space</h2>
+               <h2>Discover my Amazing<br/>Art Space!</h2>
                 <div className={styles.home_banner_type}>&lt;<i>code</i>&gt;  <TypeAnimation
                     cursor={true}
                     sequence={[

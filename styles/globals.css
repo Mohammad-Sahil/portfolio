@@ -151,3 +151,15 @@ a {
   height: 2px;
   background-color: #2B2B34;
 }
+@media(max-width: 768px){
+  .home_footer p:nth-child(2){
+    display: none;
+  }
+  .home_footer{
+    margin-top: 30px;
+    font-size: 14px !important;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}

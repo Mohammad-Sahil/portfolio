@@ -38,3 +38,8 @@
     content: '';
     background-color: #1d1d24c1;
 }
+@media(max-width: 768px){
+    .navbar_container{
+       display: none;
+    }
+}

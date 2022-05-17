@@ -122,3 +122,9 @@
     height: 100px !important;
     position: absolute;
 }
+
+@media(max-width: 768px){
+    .sidebar_container{
+        display: none;
+    }
+}
