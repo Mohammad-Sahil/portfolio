@@ -65,3 +65,8 @@
   .contact_container_div input:focus ~ label{
     background: linear-gradient(90deg, #DA6E82 0%, #A756E6 100%);
   }
+  @media(max-width: 768px){
+    .contact_container_div > form{
+      padding: 0.1px 15px !important;
+    }
+  }

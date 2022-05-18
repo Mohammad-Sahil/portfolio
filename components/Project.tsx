@@ -65,8 +65,6 @@ const Project = () => {
                 <p><span>#</span>HTML</p>
                 <p><span>#</span>HTML</p>
                 <p><span>#</span>HTML</p>
-                {/* <p><span>#</span>HTML</p>sss */}
-                <p><span>#</span>HTML</p>
                 </div>
             </div>
         </div>
