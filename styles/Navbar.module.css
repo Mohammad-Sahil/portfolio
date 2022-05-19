@@ -40,6 +40,10 @@
 }
 @media(max-width: 768px){
     .navbar_container{
-       display: none;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      /* width: 70px; */
+      height: calc(100vh - 70px);
     }
 }

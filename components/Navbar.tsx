@@ -12,9 +12,9 @@ import GroupIcon from '@mui/icons-material/Group';
 import GroupsIcon from '@mui/icons-material/Groups';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 
-const Navbar = () => {
+const Navbar = ({display}) => {
   return (
-    <div className={styles.navbar_container}>
+    <div className={styles.navbar_container} style={{display: display}}>
         <div className={styles.nav_menu}>
             <ul className='p-0'>
             <li><Link href="/" className='text-decoration-none d-flex justify-content-center flex-column'><a className='text-decoration-none mx-auto d-flex flex-column justify-content-center'><IconButton><HomeIcon style={{color: "#8C8C8E"}}/></IconButton><p>Home</p></a></Link></li>

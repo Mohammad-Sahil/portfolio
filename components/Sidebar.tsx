@@ -10,12 +10,12 @@ import DownloadIcon from '@mui/icons-material/Download';
 import { CircularProgressbar } from 'react-circular-progressbar';
 // import '../node_modules/react-circular-progressbar/dist/styles.css';
 
-const Sidebar = () => {
+const Sidebar = ({display}) => {
     const percentageOne = 80;
     const percentageTwo = 100; 
     const percentageThree = 70;
   return (
-    <div className={styles.sidebar_container}>
+    <div style={{display: display}} className={styles.sidebar_container}>
         <div className={styles.sidebar_profilecard}>
             <div className={styles.sidebar_profile}>
                 <img src={profileImg.src} alt='Sahil_profile'/>
