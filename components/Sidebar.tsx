@@ -21,7 +21,7 @@ const Sidebar = ({display}) => {
             <div className={styles.sidebar_profile}>
                 <img src={profileImg.src} alt='Sahil_profile'/>
                 <p className={styles.profile_title}>Mohammad Sahil</p>
-                <p>Full Stack Web Developer<br/>Ui/UX Designer</p>
+                <p>Full Stack Web Developer<br/>Cloud Enthusiast</p>
             </div>
         </div>
         <div className={styles.sidebar_details}>
