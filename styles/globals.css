@@ -109,15 +109,17 @@ a {
   background: #252532;
   border-radius: 4.5px;
   color: #8C8C8E;
+  min-height: 426px;
 }
 .blog_container_blog_card > img{
   width: 100%;
   border-radius: 9px;
+  height: 140px;
 }
 .blog_container_blog_card > h3{
   font-weight: 800;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 22px;
   color: #FFFFFF;
   margin-top: 14px;
 }
