@@ -45,5 +45,6 @@
       right: 0;
       /* width: 70px; */
       height: calc(100vh - 70px);
+      /* display: none !important; */
     }
 }

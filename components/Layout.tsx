@@ -6,11 +6,12 @@ import Navbar from './Navbar'
 import styles from '../styles/Layout.module.css'
 import MenuOpenIcon from '@mui/icons-material/MenuOpen'
 import MoreVertIcon from '@mui/icons-material/MoreVert'
-import { IconButton } from '@material-ui/core';
+import { IconButton } from '@material-ui/core'
+import Chat from './Chat';
 
 const Layout = ({ children }) => {
-    const [ sidebarD, setSidebarD ] = useState("none");
-    const [ navbarD, setNavbarD ] = useState("none");
+    const [ sidebarD, setSidebarD ] = useState("block");
+    const [ navbarD, setNavbarD ] = useState("block");
 
     return (
     <>
@@ -38,6 +39,7 @@ const Layout = ({ children }) => {
               />
             </div>
         </div>
+        <Chat/>
     </div>
     </>
   )
