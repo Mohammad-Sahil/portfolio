@@ -122,6 +122,11 @@
     height: 100px !important;
     position: absolute;
 }
+@media (min-width: 768px) and (max-width: 2560px){
+    .sidebar_container{
+        display: block !important;
+    }
+}
 
 @media(max-width: 768px){
     .sidebar_container{

@@ -10,8 +10,8 @@ import { IconButton } from '@material-ui/core'
 import Chat from './Chat';
 
 const Layout = ({ children }) => {
-    const [ sidebarD, setSidebarD ] = useState("block");
-    const [ navbarD, setNavbarD ] = useState("block");
+    const [ sidebarD, setSidebarD ] = useState("none");
+    const [ navbarD, setNavbarD ] = useState("none");
 
     return (
     <>
