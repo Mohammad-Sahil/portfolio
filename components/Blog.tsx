@@ -9,7 +9,7 @@ const Blog = (props) => {
             <img src={props.img} alt="Blog Image" /> 
             <h3>{props.title}</h3>
             <p>{props.para}</p>
-            <Link href={props.link} className='text-decoration-none' isExternal>
+            <Link href={props.link} className='text-decoration-none'>
             <a className='text-decoration-none'>
             <div className="buttons_blogCard text-center">
                 Read More

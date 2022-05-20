@@ -40,17 +40,17 @@ const Sidebar = ({display}) => {
             </div>
         </div>
         <div className={styles.sidebar_cvdownload}>
-            <Link href="/Mohammad_Sahil_Resume.pdf" isExternal className='text-decoration-none'><a>Download CV <DownloadIcon style={{fontSize: "20px"}}/></a></Link>
+            <Link href="/Mohammad_Sahil_Resume.pdf" className='text-decoration-none'><a>Download CV <DownloadIcon style={{fontSize: "20px"}}/></a></Link>
         </div>
         <div className={styles.sidebar_footer}>
             <div className={styles.sidebar_icon}>
-            <Link href='https://github.com/Mohammad-Sahil' isExternal className='text-decoration-none'><GitHubIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
-            <Link href='https://tsharpsahil.medium.com/' isExternal className='text-decoration-none'><i className="fa fa-medium" aria-hidden="true"></i></Link>
-            <Link href='https://www.linkedin.com/in/tsharpsahilemeja/' isExternal className='text-decoration-none'><LinkedInIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
-            <Link href='https://twitter.com/tsharpsahil' isExternal className='text-decoration-none'><TwitterIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
-            <Link href='https://www.behance.net/mohammadsahil2' isExternal className='text-decoration-none'><i className="fa fa-behance" aria-hidden="true"></i></Link>
-            <Link href='https://www.instagram.com/tsharpsahil/' isExternal className='text-decoration-none'><InstagramIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
-            <Link href='https://www.facebook.com/sahil87654/' isExternal className='text-decoration-none'><FacebookIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://github.com/Mohammad-Sahil' className='text-decoration-none'><GitHubIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://tsharpsahil.medium.com/' className='text-decoration-none'><i className="fa fa-medium" aria-hidden="true"></i></Link>
+            <Link href='https://www.linkedin.com/in/tsharpsahilemeja/' className='text-decoration-none'><LinkedInIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://twitter.com/tsharpsahil' className='text-decoration-none'><TwitterIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://www.behance.net/mohammadsahil2' className='text-decoration-none'><i className="fa fa-behance" aria-hidden="true"></i></Link>
+            <Link href='https://www.instagram.com/tsharpsahil/' className='text-decoration-none'><InstagramIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://www.facebook.com/sahil87654/' className='text-decoration-none'><FacebookIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
             </div>
         </div>
     </div>
