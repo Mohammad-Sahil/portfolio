@@ -8,6 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import DownloadIcon from '@mui/icons-material/Download';
 import { CircularProgressbar } from 'react-circular-progressbar';
+import Link from 'next/link';
 // import '../node_modules/react-circular-progressbar/dist/styles.css';
 
 
@@ -39,17 +40,17 @@ const Sidebar = ({display}) => {
             </div>
         </div>
         <div className={styles.sidebar_cvdownload}>
-            <a href="/Mohammad_Sahil_Resume.pdf" target='_blank' className='text-decoration-none'>Download CV <DownloadIcon style={{fontSize: "20px"}}/></a>
+            <Link href="/Mohammad_Sahil_Resume.pdf" isExternal className='text-decoration-none'><a>Download CV <DownloadIcon style={{fontSize: "20px"}}/></a></Link>
         </div>
         <div className={styles.sidebar_footer}>
             <div className={styles.sidebar_icon}>
-            <a href='https://github.com/Mohammad-Sahil' target='_blank' className='text-decoration-none'><GitHubIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></a>
-            <a href='https://tsharpsahil.medium.com/' target='_blank' className='text-decoration-none'><i className="fa fa-medium" aria-hidden="true"></i></a>
-            <a href='https://www.linkedin.com/in/tsharpsahilemeja/' target='_blank' className='text-decoration-none'><LinkedInIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></a>
-            <a href='https://twitter.com/tsharpsahil' target='_blank' className='text-decoration-none'><TwitterIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></a>
-            <a href='https://www.behance.net/mohammadsahil2' target='_blank' className='text-decoration-none'><i className="fa fa-behance" aria-hidden="true"></i></a>
-            <a href='https://www.instagram.com/tsharpsahil/' target='_blank' className='text-decoration-none'><InstagramIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></a>
-            <a href='https://www.facebook.com/sahil87654/' target='_blank' className='text-decoration-none'><FacebookIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></a>
+            <Link href='https://github.com/Mohammad-Sahil' isExternal className='text-decoration-none'><GitHubIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://tsharpsahil.medium.com/' isExternal className='text-decoration-none'><i className="fa fa-medium" aria-hidden="true"></i></Link>
+            <Link href='https://www.linkedin.com/in/tsharpsahilemeja/' isExternal className='text-decoration-none'><LinkedInIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://twitter.com/tsharpsahil' isExternal className='text-decoration-none'><TwitterIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://www.behance.net/mohammadsahil2' isExternal className='text-decoration-none'><i className="fa fa-behance" aria-hidden="true"></i></Link>
+            <Link href='https://www.instagram.com/tsharpsahil/' isExternal className='text-decoration-none'><InstagramIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
+            <Link href='https://www.facebook.com/sahil87654/' isExternal className='text-decoration-none'><FacebookIcon style={{fontSize: "15px", marginLeft: "4px", marginRight: "4px"}}/></Link>
             </div>
         </div>
     </div>
