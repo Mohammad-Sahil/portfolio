@@ -23,14 +23,14 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
 
         {/* *********** Meta SEO***********  */}
-        <meta property="og:title" content="Sahil is an undergrad, pursuing Int MSc(5 year program) in Life Science at National Institute of Technology Rourkela. Founder and President of Club DevDribble at NIT Rourkela. He has a keen interest in building highly scalable full stack web applications" />
+        <meta property="og:title" content="Sahil has a keen interest in building highly scalable full stack web applications, he is an undergrad, pursuing Int MSc(5 year program) in Life Science at National Institute of Technology Rourkela. Founder and President of Club DevDribble at NIT Rourkela" />
         <meta name="keywords"  content="Mohammad Sahil, Mohd Sahil, Mo Sahil, Sahil,  M Sahil, vriddhinitr, vriddhi, DevDribble,dev dribble, fest, festnitr, nitr,nitrkl,nitrourkela,nit,rourkela,nit rourkela,nitr developer, developer, nitr mern developer" />
         <meta name="description" content="Mohammad Sahil Portfolio Website" />
         
         {/* *********** Meta Facebook SEO***********  */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tsharpsahil.tech/" />
-        <meta property="og:image" content="https://tsharpsahil.tech/profilee.png" />
+        <meta property="og:image" content="https://tsharpsahil.tech/waimg.png" />
         <meta property="og:image:width" content="806" />
         <meta property="og:image:height" content="280" /> <meta name="description" content="Mohammad Sahil" />
         <link rel="icon" href="/favicon.ico" />
