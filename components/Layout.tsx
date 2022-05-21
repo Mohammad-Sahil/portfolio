@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         {/* *********** Meta Facebook SEO***********  */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tsharpsahil.tech/" />
-        <meta property="og:image" content="https://res.cloudinary.com/dsg5sww1c/image/upload/v1653170974/squre_profileImg_agxqs5.jpg" />
+        <meta property="og:image" content="https://tsharpsahil.tech/profilee.png" />
         <meta property="og:image:width" content="806" />
         <meta property="og:image:height" content="280" /> <meta name="description" content="Mohammad Sahil" />
         <link rel="icon" href="/favicon.ico" />
