@@ -6,20 +6,20 @@ import styles from '../styles/Projects.module.css'
 import Button from "@mui/material/Button"
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-const Project = () => {
+const Project = (props) => {
   return (
     <div className={styles.project_macframe}>
     <img src={MacFrame.src} alt="Mac Frame" />
         <div className={styles.macFrame_content}>
             <div className="row">
-            <div className="col-12 col-md-6">
-                <img src={laptopModel.src} alt="Project Img" className={styles.macFrame_content_img}/>
+            <div className="col-12 col-md-6 d-flex justify-content-center">
+                <img src={props.projectImg} style={{borderRadius: "15px"}} alt="Project Img" className={styles.macFrame_content_img}/>
             </div>
             <div className="col-12 col-md-6 mx-auto">
                <div className={styles.macFrame_content_details}>
                <div className="px-2">
-                <h2>First Project</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis sagittis suspendisse ut risus nunc sed. Viverra turpis velit ut ut dignissim vulputate scelerisque vitae. Gravida congue pellentesque turpi</p>
+                <h2>{props.title}</h2>
+                <p>{props.para}</p>
                 <div className="row">
                 <div className="col-6">
                     <Button
