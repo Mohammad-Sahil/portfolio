@@ -60,12 +60,12 @@ const Project = (props) => {
             <div className={styles.macFrame_content_tag}>
                 <div className="p-1 d-flex align-items-center" style={{color: "#9C9CA2",fontSize: "10px",fontWeight: "700"}}><span className="p-1" style={{color: "#A857E5"}}><InfoIcon/></span>TECH USED</div>
                 <div className={styles.macFrame_content_tag_tags}>
-                <p><span>#</span>HTML</p>
-                <p><span>#</span>HTML</p>
-                <p><span>#</span>HTML</p>
-                <p><span>#</span>HTML</p>
-                <p><span>#</span>HTML</p>
-                <p><span>#</span>HTML</p>
+                <p><span>#</span>{props.tag1}</p>
+                <p><span>#</span>{props.tag2}</p>
+                <p><span>#</span>{props.tag3}</p>
+                <p><span>#</span>{props.tag4}</p>
+                <p><span>#</span>{props.tag5}</p>
+                <p><span>#</span>{props.tag6}</p>
                 </div>
             </div>
         </div>
