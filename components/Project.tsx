@@ -5,6 +5,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import styles from '../styles/Projects.module.css'
 import Button from "@mui/material/Button"
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Router from 'next/router';
 
 const Project = (props) => {
   return (
@@ -23,7 +24,7 @@ const Project = (props) => {
                 <div className="row">
                 <div className="col-6">
                     <Button
-                    // onClick={openOauth}
+                    onClick={() => Router.push(`${props.githubLink}`)}
                     className={styles.project_button}
                     sx={{
                         borderColor: "#AA1EF1",
@@ -38,7 +39,7 @@ const Project = (props) => {
                 </div>
                 <div className="col-6">
                         <Button
-                        // onClick={openOauth}
+                        onClick={() => Router.push(`${props.liveLink}`)}
                         className={styles.project_button}
                         sx={{
                             borderColor: "#AA1EF1",
