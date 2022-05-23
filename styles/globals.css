@@ -168,3 +168,80 @@ a {
     font-size: 26px !important;
   }
 }
+/* DesignCard Styling */
+
+.grid--container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+.grid--image {
+  background-size: cover;  
+  background-position: center;
+  grid-column: 1 / 7;
+  grid-row: 1 / 9;
+}
+.grid--content {
+  background-color: hsla(240, 12%, 20%, 0.8);
+  color: white;
+  grid-column: 6 / -1;
+  grid-row: 4 / -1;
+}
+.card--content{
+  color: #8C8C8E;
+}
+.card--title {
+  font-family: 'Blinker', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.8)
+}
+.btn_button {
+  border: 1px solid #b866f7;
+  color: white;
+  background: linear-gradient(135deg, #A957E3 0%, #DA6E83 96%);
+}
+.btn_button:hover {
+    background: #000;
+    color: #8C8C8E;
+    border-color: #8C8C8E;
+    box-shadow: 0 0 32px rgba(0,0,0,0.2);
+ }
+
+@media (max-width: 1000px) {
+  .grid-container {
+    height: 100%;
+  }
+  .grid--content {
+     background-color: hsla(240, 12%, 20%, 0.8);
+    grid-column: 5 / span 6;
+  }
+}
+@media (max-width: 768px) {
+  .grid--image {
+    grid-column: 1 / -1
+  }
+ 
+  .grid--content {
+     background-color: hsla(240, 12%, 20%, 0.8);
+    grid-column: 2 / span 8;
+    grid-row: 6 / -1;
+    min-height: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .grid--container {
+    box-shadow: 0 0 32px rgba(0,0,0,0.5);
+  }
+  .grid--image {
+    grid-column: 1 / -1;
+    grid-row: 1 / span 4;
+  }
+  .grid--content {
+    background-color: hsla(240, 12%, 20%, 0.8);
+    grid-column: 1 / -1;
+    grid-row: 5 / -1;
+    min-height: 100%;
+  }
+}
