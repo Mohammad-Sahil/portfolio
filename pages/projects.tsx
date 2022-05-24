@@ -75,12 +75,12 @@ export default function Home() {
                 title= "WhatsApp Group Web App"
                 para= "Built a fully functional highly responsive WhatsApp Clone for group chat management using React, firebase, Bootstrap, NodeJS and hosted on Vercel"
                 githubLink= "https://github.com/Mohammad-Sahil/whatsapp-clone/"
-                liveLink= "/projects"
+                liveLink= "https://whatsapp-group.vercel.app/"
                 tag1= "ReactJS"
                 tag2= "Firebase"
-                tag3= "Bootstrap"
+                tag3= "Context API"
                 tag4= "MUI"
-                tag5= "Nodejs"
+                tag5= "Google Auth"
                 tag6= "Vercel"
                 projectImg= {whatsapp.src}
               />
