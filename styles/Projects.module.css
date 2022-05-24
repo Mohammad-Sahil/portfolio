@@ -111,6 +111,10 @@
      .macFrame_content_tag{
          height: auto;
          border-radius: 10px;
+         overflow-x: scroll;
+     }
+     .macFrame_content_tag::-webkit-scrollbar{
+         display: none;
      }
      .macFrame_content_tag_tags p{
         float: left;

@@ -65,7 +65,7 @@ const Project = (props) => {
                 <p><span>#</span>{props.tag3}</p>
                 <p><span>#</span>{props.tag4}</p>
                 <p><span>#</span>{props.tag5}</p>
-                <p className="tagNone" ><span>#</span>{props.tag6}</p>
+                <p><span>#</span>{props.tag6}</p>
                 </div>
             </div>
         </div>
