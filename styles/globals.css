@@ -157,6 +157,9 @@ a {
   .home_footer p:nth-child(2){
     display: none;
   }
+  .tagNone{
+    display: none;
+  }
   .home_footer{
     margin-top: 30px;
     font-size: 14px !important;

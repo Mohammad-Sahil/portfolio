@@ -25,49 +25,49 @@ export default function Home() {
               <DesignCard
                   cardImg = {vriddhi.src}
                   title = "Vriddhi eSports Fest"
-                  para = "The Ford Mustang GT features a standard electronic line locker and, with the manual transmission, launch control. With 435 horsepower, this thing is a burnout and quarter-mile machine. Sync 3 is so much better than the last generation of Ford's infotainment. The new rear suspension and convertible top make this very comfortable tourer."
+                  para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                   figmaLink = "https://www.figma.com/file/9gBT4ixqZboGas4qaMf54B/Vriddhi-UX%2FUI?node-id=401%3A4"
                />
               <DesignCard
                   cardImg = {notes.src}
                   title = "NITR Notes & Book"
-                  para = "The Ford Mustang GT features a standard electronic line locker and, with the manual transmission, launch control. With 435 horsepower, this thing is a burnout and quarter-mile machine. Sync 3 is so much better than the last generation of Ford's infotainment. The new rear suspension and convertible top make this very comfortable tourer."
+                  para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                   figmaLink = "https://www.figma.com/file/6G9xGeW4XLJFSf3MabcOjg/A2NITR?node-id=0%3A1"
                />
                <DesignCard
                   cardImg = {portfolio.src}
                   title = "Personal Portfolio"
-                  para = "The Ford Mustang GT features a standard electronic line locker and, with the manual transmission, launch control. With 435 horsepower, this thing is a burnout and quarter-mile machine. Sync 3 is so much better than the last generation of Ford's infotainment. The new rear suspension and convertible top make this very comfortable tourer."
+                  para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                   figmaLink = "https://www.figma.com/file/qvqIhBy1BDzZehvt20XCpY/Sahil_Portfolio?node-id=301%3A3"
                />
               <DesignCard
                   cardImg = {codecanibals.src}
                   title = "Code Canibals"
-                  para = "The Ford Mustang GT features a standard electronic line locker and, with the manual transmission, launch control. With 435 horsepower, this thing is a burnout and quarter-mile machine. Sync 3 is so much better than the last generation of Ford's infotainment. The new rear suspension and convertible top make this very comfortable tourer."
+                  para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                   figmaLink = "https://www.figma.com/file/kJ5TZS5kEncLvoRo9NZRD8/CodeCannibals?node-id=0%3A1"
                />
               <DesignCard
                   cardImg = {nss.src}
                   title = "NSS NIT Rourkela"
-                  para = "The Ford Mustang GT features a standard electronic line locker and, with the manual transmission, launch control. With 435 horsepower, this thing is a burnout and quarter-mile machine. Sync 3 is so much better than the last generation of Ford's infotainment. The new rear suspension and convertible top make this very comfortable tourer."
+                  para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                   figmaLink = "https://www.figma.com/file/cqJ0r7JIqwM1L0c5RcJYwR/NSS-Web-Pages?node-id=603%3A2"
                />
                <DesignCard
                   cardImg = {ebsbs.src}
                   title = "Ek Bharat Shreshtha Bharat"
-                  para = "The Ford Mustang GT features a standard electronic line locker and, with the manual transmission, launch control. With 435 horsepower, this thing is a burnout and quarter-mile machine. Sync 3 is so much better than the last generation of Ford's infotainment. The new rear suspension and convertible top make this very comfortable tourer."
+                  para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                   figmaLink = "https://www.figma.com/file/fzdBRaw2X49zHuEgF75znO/EBSB---Ui-Pages?node-id=0%3A1"
                />
               <DesignCard
                   cardImg = {aqg.src}
                   title = "Ask Quick Global"
-                  para = "The Ford Mustang GT features a standard electronic line locker and, with the manual transmission, launch control. With 435 horsepower, this thing is a burnout and quarter-mile machine. Sync 3 is so much better than the last generation of Ford's infotainment. The new rear suspension and convertible top make this very comfortable tourer."
+                  para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                   figmaLink = "https://www.figma.com/file/aGR2E1NXO030d4sUC5fVfg/ASK-QUICK-GLOBAL?node-id=202%3A2"
                />
                <DesignCard
                   cardImg = {xpraints.src}
                   title = "Xpraint Web Interface"
-                  para = "The Ford Mustang GT features a standard electronic line locker and, with the manual transmission, launch control. With 435 horsepower, this thing is a burnout and quarter-mile machine. Sync 3 is so much better than the last generation of Ford's infotainment. The new rear suspension and convertible top make this very comfortable tourer."
+                  para = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
                   figmaLink = "https://www.figma.com/file/iiP4VgCssGKZrTsUyVqwi1/Xpraint-Home-page?node-id=41%3A227"
                />
               
