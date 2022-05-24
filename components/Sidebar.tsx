@@ -20,7 +20,10 @@ const Sidebar = ({display}) => {
     <div style={{display: display}} className={styles.sidebar_container}>
         <div className={styles.sidebar_profilecard}>
             <div className={styles.sidebar_profile}>
+                <div style={{position: "relative"}}>
                 <img src={profileImg.src} alt='Sahil_profile'/>
+                <span className="pulse"></span>
+                </div>
                 <p className={styles.profile_title}>Mohammad Sahil</p>
                 <p>Full Stack Web Developer<br/>Cloud Enthusiast</p>
             </div>
