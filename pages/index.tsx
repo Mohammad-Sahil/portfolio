@@ -59,7 +59,7 @@ export default function Home() {
                   <div>
                     <h2>My Interests lies in</h2>
                     <div className="row">
-                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>Full Stack Wev Development</p></div></div>
+                    <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>Full Stack Development</p></div></div>
                     <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>Cloud Computing</p></div></div>
                     <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>Problem Solving</p></div></div>
                     <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>UI/UX Designing</p></div></div>
