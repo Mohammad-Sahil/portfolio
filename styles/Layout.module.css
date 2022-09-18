@@ -5,7 +5,7 @@
   background-repeat: repeat;
   width: calc(100% - 380px);
   height: calc(100vh - 30px);
-  padding: 50px 25px 0 25px;
+  padding: 26px 25px 0 25px;
   overflow-y: scroll;
 }
 .home_container::-webkit-scrollbar {
