@@ -43,7 +43,7 @@ export default function Home() {
 
               <Project
                 title= "Uber Eats Clone (Food Delivery)"
-                para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
+                para= "Developed a cross platform mobile application using React Native and Styled CSS. Developed with modern UI elements, authentication, Google Places API, Checkout etc"
                 githubLink= "https://github.com/Mohammad-Sahil/uber-eats/"
                 liveLink= "#"
                 tag1= "React Native"
@@ -56,7 +56,7 @@ export default function Home() {
               />
               <Project
                 title= "Zoom App Clone (Android & iOS)"
-                para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
+                para= "Built and designed dynamic and fully functional cross platform mobile application for Android and iOS using React Native and Styled CSS. Developed with modern UI elements."
                 githubLink= "https://github.com/Mohammad-Sahil/zoom-app/"
                 liveLink= "#"
                 tag1= "React Native"
@@ -68,8 +68,8 @@ export default function Home() {
                 projectImg= {zoomapp.src}
               />
               <Project
-                title= "TikTok Web App"
-                para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
+                title= "TikTok Web App (Video-Sharing)"
+                para= "Built a fully functional highly responsive TikTok Web App Clone from scratch using Next.js, MUI, Emotion, Node.js, Express and MongoDB, hosted on Vercel."
                 githubLink= "https://github.com/Mohammad-Sahil/TikTok/"
                 liveLink= "https://tiktok-beta.vercel.app/"
                 tag1= "NextJS"
@@ -81,8 +81,8 @@ export default function Home() {
                 projectImg= {tiktok.src}
               />
               <Project
-                title= "Video Conferencing Web App"
-                para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
+                title= "Video Conferencing App"
+                para= "Developed a fully functional highly responsive peer to peer video conferencing Web App from scratch hosted on Heroku using EJS , Express, Node.js, MongoDB and WebRTC i.e. Socket.IO and PeerJS."
                 githubLink= "https://github.com/Mohammad-Sahil/video-conferencing-app/"
                 liveLink= "https://video-conferencing-appp.herokuapp.com/"
                 tag1= "WebRTC"
