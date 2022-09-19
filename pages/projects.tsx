@@ -32,6 +32,67 @@ export default function Home() {
                 tag6= "Vercel"
                 projectImg= {vriddhi.src}
               />
+
+
+
+
+              <Project
+                title= "Uber Eats Clone"
+                para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
+                githubLink= "https://github.com/Mohammad-Sahil/uber-eats/"
+                liveLink= "#"
+                tag1= "React Native"
+                tag2= "Redux"
+                tag3= "Google-Places API"
+                tag4= "NodeJS"
+                tag5= "Firebase"
+                tag6= "Expo"
+                projectImg= {vriddhi.src}
+              />
+              <Project
+                title= "Zoom App Clone"
+                para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
+                githubLink= "https://github.com/Mohammad-Sahil/zoom-app/"
+                liveLink= "#"
+                tag1= "React Native"
+                tag2= "Expo"
+                tag3= "Socket.IO"
+                tag4= "NodeJS"
+                tag5= "Express"
+                tag6= "Heroku"
+                projectImg= {vriddhi.src}
+              />
+              <Project
+                title= "TikTok Web App"
+                para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
+                githubLink= "https://github.com/Mohammad-Sahil/TikTok/"
+                liveLink= "https://tiktok-beta.vercel.app/"
+                tag1= "NextJS"
+                tag2= "MUI"
+                tag3= "Emotion"
+                tag4= "NodeJS"
+                tag5= "MongoDB"
+                tag6= "Vercel"
+                projectImg= {vriddhi.src}
+              />
+              <Project
+                title= "Video Conferencing Web App"
+                para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
+                githubLink= "https://github.com/Mohammad-Sahil/video-conferencing-app/"
+                liveLink= "https://video-conferencing-appp.herokuapp.com/"
+                tag1= "WebRTC"
+                tag2= "EJS"
+                tag3= "Express"
+                tag4= "NodeJS"
+                tag5= "MongoDB"
+                tag6= "Heroku"
+                projectImg= {vriddhi.src}
+              />
+
+
+
+
+
               <Project
                 title= "NITR Notes"
                 para= "One stop platform for a students reading list on campus. Compiled books & notes of every single branch and year and a lot more with a great reading experience, built using HTML,CSS,JS,Google Script and firebase, Got 1k+ daily visitors on Exam’s days"
