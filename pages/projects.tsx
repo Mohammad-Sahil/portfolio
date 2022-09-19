@@ -37,7 +37,19 @@ export default function Home() {
                 tag6= "Vercel"
                 projectImg= {vriddhi.src}
               />
-
+              <Project
+                title= "NITR Notes"
+                para= "One stop platform for a students reading list on campus. Compiled books & notes of every single branch and year and a lot more with a great reading experience, built using HTML,CSS,JS,Google Script and firebase, Got 1k+ daily visitors on Exam’s days"
+                githubLink= "https://github.com/devdribblenitr/Notes/"
+                liveLink= "https://notes.a2nitr.in/"
+                tag1= "HTML5"
+                tag2= "CSS3"
+                tag3= "Google Script"
+                tag4= "Firebase"
+                tag5= "Adobe API"
+                tag6= "Github"
+                projectImg= {notes.src}
+              />
 
 
 
@@ -98,19 +110,7 @@ export default function Home() {
 
 
 
-              <Project
-                title= "NITR Notes"
-                para= "One stop platform for a students reading list on campus. Compiled books & notes of every single branch and year and a lot more with a great reading experience, built using HTML,CSS,JS,Google Script and firebase, Got 1k+ daily visitors on Exam’s days"
-                githubLink= "https://github.com/devdribblenitr/Notes/"
-                liveLink= "https://notes.a2nitr.in/"
-                tag1= "HTML5"
-                tag2= "CSS3"
-                tag3= "Google Script"
-                tag4= "Firebase"
-                tag5= "Adobe API"
-                tag6= "Github"
-                projectImg= {notes.src}
-              />
+              
               <Project
                 title= "Amazon Book Store"
                 para= "Fully dynamic & interactive Amazon Bookstore Clone hosted on Github and Google Clouds, Built using ReactJS, MUI, Bootstrap, NodeJS, Express & Stripe for payment"
