@@ -10,6 +10,11 @@ import uber from '../public/project/project_uber.png'
 import amazon from '../public/project/project_amazon.png'
 import whatsapp from '../public/project/project_whatsapp.png'
 import portfolio from '../public/project/project_portfolio.png'
+import uberEats from '../public/project/Uber-Eats.png'
+import zoomapp from '../public/project/zoomapp.gif'
+import zoomweb from '../public/project/zoomweb.png'
+import tiktok from '../public/project/tiktok.jpeg'
+
 
 export default function Home() {
   
@@ -37,7 +42,7 @@ export default function Home() {
 
 
               <Project
-                title= "Uber Eats Clone"
+                title= "Uber Eats Clone (Food Delivery)"
                 para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
                 githubLink= "https://github.com/Mohammad-Sahil/uber-eats/"
                 liveLink= "#"
@@ -47,10 +52,10 @@ export default function Home() {
                 tag4= "NodeJS"
                 tag5= "Firebase"
                 tag6= "Expo"
-                projectImg= {vriddhi.src}
+                projectImg= {uberEats.src}
               />
               <Project
-                title= "Zoom App Clone"
+                title= "Zoom App Clone (Android & iOS)"
                 para= "Built and designed a fully functional highly responsive web app for the official eSports Fest of NIT Rourkela from scratch using Next.js,MUI, Emotion, Node.js, MongoDB and Vercel."
                 githubLink= "https://github.com/Mohammad-Sahil/zoom-app/"
                 liveLink= "#"
@@ -60,7 +65,7 @@ export default function Home() {
                 tag4= "NodeJS"
                 tag5= "Express"
                 tag6= "Heroku"
-                projectImg= {vriddhi.src}
+                projectImg= {zoomapp.src}
               />
               <Project
                 title= "TikTok Web App"
@@ -73,7 +78,7 @@ export default function Home() {
                 tag4= "NodeJS"
                 tag5= "MongoDB"
                 tag6= "Vercel"
-                projectImg= {vriddhi.src}
+                projectImg= {tiktok.src}
               />
               <Project
                 title= "Video Conferencing Web App"
@@ -86,7 +91,7 @@ export default function Home() {
                 tag4= "NodeJS"
                 tag5= "MongoDB"
                 tag6= "Heroku"
-                projectImg= {vriddhi.src}
+                projectImg= {zoomweb.src}
               />
 
 
