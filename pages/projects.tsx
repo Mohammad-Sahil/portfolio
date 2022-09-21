@@ -17,7 +17,6 @@ import tiktok from '../public/project/tiktok.jpeg'
 
 
 export default function Home() {
-
   return (
     <>
       <Layout>
