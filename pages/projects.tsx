@@ -4,16 +4,16 @@ import styles from '../styles/Projects.module.css'
 import Layout from '../components/Layout'
 import Project from '../components/Project'
 
-import notes from '../public/project/project_a2nitr.jpg'
-import vriddhi from '../public/project/project_vriddhi.png'
-import uber from '../public/project/project_uber.png'
-import amazon from '../public/project/project_amazon.png'
-import whatsapp from '../public/project/project_whatsapp.png'
-import portfolio from '../public/project/project_portfolio.png'
-import uberEats from '../public/project/Uber-Eats.png'
-import zoomapp from '../public/project/zoomapp.gif'
-import zoomweb from '../public/project/zoomweb.png'
-import tiktok from '../public/project/tiktok.jpeg'
+import notes from '/project/project_a2nitr.jpg'
+import vriddhi from '/project/project_vriddhi.png'
+import uber from '/project/project_uber.png'
+import amazon from '/project/project_amazon.png'
+import whatsapp from '/project/project_whatsapp.png'
+import portfolio from '/project/project_portfolio.png'
+import uberEats from '/project/Uber-Eats.png'
+import zoomapp from '/project/zoomapp.gif'
+import zoomweb from '/project/zoomweb.png'
+import tiktok from '/project/tiktok.jpeg'
 
 const projectsArray = [
   {
@@ -169,11 +169,11 @@ export default function Home() {
                       tag4={item.tag4}
                       tag5={item.tag5}
                       tag6={item.tag6}
-                      projectImg={item.projectImg.src}
+                      projectImg={item.projectImg}
                 />
                   )
                 })}
-                
+
             <div className="home_footer">
               <p>Made with 💜 By Mohammad Sahil | © 2022</p>
               <p>Email: sahilmejakhas@gmail.com</p>
