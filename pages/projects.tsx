@@ -4,16 +4,16 @@ import styles from '../styles/Projects.module.css'
 import Layout from '../components/Layout'
 import Project from '../components/Project'
 
-import notes from '/project/project_a2nitr.jpg'
-import vriddhi from '/project/project_vriddhi.png'
-import uber from '/project/project_uber.png'
-import amazon from '/project/project_amazon.png'
-import whatsapp from '/project/project_whatsapp.png'
-import portfolio from '/project/project_portfolio.png'
-import uberEats from '/project/Uber-Eats.png'
-import zoomapp from '/project/zoomapp.gif'
-import zoomweb from '/project/zoomweb.png'
-import tiktok from '/project/tiktok.jpeg'
+import vriddhi from '../public/project/project_vriddhi.png'
+import notes from '../public/project/project_a2nitr.jpg'
+import uberEats from '../public/project/Uber-Eats.png'
+import zoomapp from '../public/project/zoomapp.gif'
+import tiktok from '../public/project/tiktok.jpeg'
+import zoomweb from '../public/project/zoomweb.png'
+import amazon from '../public/project/project_amazon.png'
+import uber from '../public/project/project_uber.png'
+import whatsapp from '../public/project/project_whatsapp.png'
+import portfolio from '../public/project/project_portfolio.png'
 
 const projectsArray = [
   {
@@ -27,7 +27,7 @@ const projectsArray = [
               tag4: "NodeJS",
               tag5: "MongoDB",
               tag6: "Vercel",
-              projectImg: {vriddhi},
+              projectImg: vriddhi.src,
   },
   {
               title: "NITR Notes",
@@ -40,7 +40,7 @@ const projectsArray = [
               tag4: "Firebase",
               tag5: "Adobe API",
               tag6: "Github",
-              projectImg: {notes},
+              projectImg: notes.src,
   },
   {
               title: "Uber Eats Clone (Food Delivery)",
@@ -53,7 +53,7 @@ const projectsArray = [
               tag4: "NodeJS",
               tag5: "Firebase",
               tag6: "Expo",
-              projectImg: {uberEats},
+              projectImg: uberEats.src,
   },
   {
               title: "Zoom App Clone (Android & iOS)",
@@ -66,7 +66,7 @@ const projectsArray = [
               tag4: "NodeJS",
               tag5: "Express",
               tag6: "Heroku",
-              projectImg: {zoomapp},
+              projectImg: zoomapp.src,
   },
   {
               title: "TikTok Web App (Video-Sharing)",
@@ -79,7 +79,7 @@ const projectsArray = [
               tag4: "NodeJS",
               tag5: "MongoDB",
               tag6: "Vercel",
-              projectImg: {tiktok},
+              projectImg: tiktok.src,
   },
   {
               title: "Video Conferencing App",
@@ -92,7 +92,7 @@ const projectsArray = [
               tag4: "NodeJS",
               tag5: "MongoDB",
               tag6: "Heroku",
-              projectImg: {zoomweb},
+              projectImg: zoomweb.src,
   },
   {
               title: "Amazon Book Store",
@@ -105,7 +105,7 @@ const projectsArray = [
               tag4: "NodeJS",
               tag5: "Express",
               tag6: "Stripe",
-              projectImg: {amazon},
+              projectImg: amazon.src,
   },
   {
               title: "Ride Sharing App (Uber)",
@@ -118,7 +118,7 @@ const projectsArray = [
               tag4: "Mapbox",
               tag5: "Firebase",
               tag6: "Vercel",
-              projectImg: {uber},
+              projectImg: uber.src,
   },
   {
               title: "WhatsApp Group Web App",
@@ -131,7 +131,7 @@ const projectsArray = [
               tag4: "MUI",
               tag5: "Google Auth",
               tag6: "Vercel",
-              projectImg: {whatsapp},
+              projectImg: whatsapp.src,
   },,
   {
               title: "My Portfolio",
@@ -144,7 +144,7 @@ const projectsArray = [
               tag4: "MUI",
               tag5: "Emotion",
               tag6: "Vercel",
-              projectImg: {portfolio},
+              projectImg: portfolio.src,
   }
 ]
 
