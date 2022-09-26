@@ -46,7 +46,7 @@ const projectsArray = [
     title: "Uber Eats Clone (Food Delivery)",
     para: "Developed a cross platform mobile application using React Native and Styled CSS. Developed with modern UI elements, authentication, Google Places API, Checkout etc",
     githubLink: "https://github.com/Mohammad-Sahil/uber-eats/",
-    liveLink: "###",
+    liveLink: "#",
     tag1: "React Native",
     tag2: "Redux",
     tag3: "Google-Places API",
