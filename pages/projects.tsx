@@ -45,7 +45,7 @@ const projectsArray = [
   },
   {
     title: "MasterJi - Book Tailor Online",
-    para: "Built with Flutter, Dart, and Firebase, MasterJi offers custom-stitched clothing with doorstep service. It features Google Maps integration, real-time order tracking, Firebase Authentication, and a seamless UI powered by Provider. Voice-note instructions and analytics enhance the experience, ensuring a perfect fit with effortless design selection and hassle-free delivery",
+    para: "MasterJi, built with Flutter, Dart, and Firebase, offers custom-stitched clothing with doorstep service, real-time tracking, voice-note instructions, Firebase Authentication, and a seamless UI powered by Provider.",
     githubLink: "https://github.com/Mohammad-Sahil/masterji-app/",
     liveLink: "https://play.google.com/store/apps/details?id=online.masterji.honchiSolution",
     tag1: "Flutter",
