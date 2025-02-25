@@ -7,6 +7,7 @@ import Project from '../components/Project'
 import vriddhi from '../public/project/project_vriddhi.png'
 import notes from '../public/project/project_a2nitr.jpg'
 import uberEats from '../public/project/Uber-Eats.png'
+import masterjiapp from '../public/project/masterjiapp.png'
 import zoomapp from '../public/project/zoomapp.gif'
 import tiktok from '../public/project/tiktok.jpeg'
 import zoomweb from '../public/project/zoomweb.png'
@@ -41,6 +42,19 @@ const projectsArray = [
     tag5: "Adobe API",
     tag6: "Github",
     projectImg: notes.src,
+  },
+  {
+    title: "MasterJi - Book Tailor Online",
+    para: "Built with Flutter, Dart, and Firebase, MasterJi offers custom-stitched clothing with doorstep service. It features Google Maps integration, real-time order tracking, Firebase Authentication, and a seamless UI powered by Provider. Voice-note instructions and analytics enhance the experience, ensuring a perfect fit with effortless design selection and hassle-free delivery",
+    githubLink: "https://github.com/Mohammad-Sahil/masterji-app/",
+    liveLink: "https://play.google.com/store/apps/details?id=online.masterji.honchiSolution",
+    tag1: "Flutter",
+    tag2: "Dart",
+    tag3: "Firebase",
+    tag4: "Google Maps",
+    tag5: "Firebase Auth",
+    tag6: "Provider",
+    projectImg: masterjiapp.src,
   },
   {
     title: "Uber Eats Clone (Food Delivery)",
