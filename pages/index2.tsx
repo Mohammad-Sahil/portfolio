@@ -18,13 +18,13 @@ export default function Home() {
               <div className={styles.home_banner_type}>&lt;<i>code</i>&gt;  <TypeAnimation
                 cursor={true}
                 sequence={[
-                  ' I build full-stack web and mobile applications.',
+                  ' I build fully dynamic web applications.',
                   2000,
-                  'I deploy scalable cloud solutions using Firebase, GCP, and AWS.',
+                  'I am a cloud enthusiast.',
                   2000,
-                  'I am an Ai enthusiast and thrive in collaborative environments.',
+                  'I am a community-driven person, love building projects',
                   2000,
-                  'I craft intuitive & responsive ui for modern web and mobile platforms.',
+                  'I design web interfaces.',
                   2000,
                 ]}
 
@@ -48,15 +48,12 @@ export default function Home() {
               </Link>
 
             </div>
-            {/* <img src={bannerImg.src} alt="Sahil full img" /> */}
+            <img src={bannerImg.src} alt="Sahil full img" />
           </div>
           <div className={styles.home_banner}>
             <div><h3>Hi, there... 👋</h3>
               <span>HOW ARE YOU ?</span>
-              <p>
-                Myself Mohammad Sahil, a passionate developer with hands-on experience in building and deploying full-stack web and mobile applications. I specialize in creating scalable systems, automating workflows, and integrating cloud solutions. I enjoy solving real-world problems through code and continuously explore new technologies to improve my skill set. I'm actively involved in open-source contributions and collaborative projects that make a meaningful impact. I've also worked with multiple startups, gaining practical experience in fast-paced environments and delivering solutions that align with user and business needs.
-              </p>
-            </div>
+              <p>Myself Mohammad Sahil, an undergrad, pursuing Int MSc(5 year program) in Life Science at National Institute of Technology Rourkela. I am Founder and President of a technical Club DevDribble at NIT Rourkela. I have a keen interest in building highly scalable full stack web applications, deploying them, automating the workflows, and monitoring applications. I am a community-driven person, loves building projects which would help tackle a real world problem. I have also been actively involved in various events and activities at the institute also worked with several start-ups.</p></div>
           </div>
           <div className={styles.home_interest}>
             <div>

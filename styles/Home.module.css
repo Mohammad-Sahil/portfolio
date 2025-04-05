@@ -1,10 +1,11 @@
-.home_container_container{
+.home_container_container {
   /* padding: 70px 60px; */
   width: 100%;
   min-height: 100%;
   /* background: #252531; */
 }
-.home_banner{
+
+.home_banner {
   background: #252531;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
   padding: 70px 60px;
@@ -16,24 +17,29 @@
   align-items: center;
   position: relative;
 }
-.home_banner>div{
+
+.home_banner>div {
   /* background-color: red; */
   width: 100%;
 }
-.home_banner h2{
+
+.home_banner h2 {
   font-size: 42px;
   line-height: 50px;
   font-weight: 900;
 }
-.home_banner i{
+
+.home_banner i {
   color: #A756E6;
 }
-.home_button{
+
+.home_button {
   padding: 10px 25px !important;
   border-radius: 0px !important;
   margin-top: 10px !important;
 }
-.home_banner img{
+
+.home_banner img {
   height: 350px;
   position: absolute;
   right: 25px;
@@ -41,34 +47,40 @@
   filter: drop-shadow(0px 0px 8px rgba(198, 29, 29, 0.05));
   user-select: none !important;
 }
-.home_banner h3{
+
+.home_banner h3 {
   font-weight: 900;
   font-size: 30px;
   line-height: 16px;
 }
-.home_banner span{
+
+.home_banner span {
   font-size: 17.3431px;
   letter-spacing: 0.180657px;
   color: #9C9CA2;
-  font-weight: 700;
+  font-weight: 500;
 }
-.home_banner .home_banner_type{
+
+.home_banner .home_banner_type {
   margin: 17px 0;
   font-size: 17.3431px;
   line-height: 24px;
   color: white !important;
   display: flex;
 }
-.home_banner p{
+
+.home_banner p {
   margin-top: 17px;
   font-size: 17.3431px;
   line-height: 24px;
-  color: #9C9CA2;
+  color: #ffffffd8;
 }
-.home_interest{
+
+.home_interest {
   /* background-color: red; */
 }
-.home_interest h2{
+
+.home_interest h2 {
   font-weight: 800;
   font-size: 30px;
   line-height: 36px;
@@ -76,16 +88,18 @@
   padding: 10px 3px 12px 3px;
   position: relative;
 }
-.home_interest h2::after{
-    position: absolute;
-    bottom: 0;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    content: '';
-    background-color: #2B2B34;
+
+.home_interest h2::after {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  content: '';
+  background-color: #2B2B34;
 }
-.interest_div{
+
+.interest_div {
   width: 100%;
   background: linear-gradient(95.32deg, #252532 0%, #242430 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
@@ -94,7 +108,8 @@
   align-items: center;
   border-radius: 4px;
 }
-.interest_div_icon{
+
+.interest_div_icon {
   margin: 24px;
   background: linear-gradient(135deg, #A957E3 0%, #DA6E83 96%);
   height: 65px;
@@ -104,16 +119,20 @@
   justify-content: center;
   align-items: center;
 }
-.interest_div_icon i{
+
+.interest_div_icon i {
   font-size: 30px;
   color: white;
 }
-.interest_div p{
+
+.interest_div p {
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 0;
+  color: #ffffffce;
 }
-.home_footer{
+
+.home_footer {
   padding: 20px;
   color: white;
   display: flex;
@@ -121,56 +140,69 @@
   margin-top: 50px;
   background: linear-gradient(95.32deg, #252532 0%, #242430 100%);
 }
-.home_footer p{
+
+.home_footer p {
   margin-bottom: 0;
 }
-.home_footer p:nth-child(2){
+
+.home_footer p:nth-child(2) {
   margin-left: auto;
   margin-right: 0;
 }
-@media(max-width: 768px){
-  .home_banner{
+
+@media(max-width: 768px) {
+  .home_banner {
     padding: 60px 30px;
     min-height: 380px;
   }
-  .home_banner > div{
+
+  .home_banner>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .home_banner img{
-     display: none;
+
+  .home_banner img {
+    display: none;
   }
-  .home_banner h2{
+
+  .home_banner h2 {
     font-size: 34px;
     line-height: 40px;
     text-align: center;
   }
-  .home_banner .home_banner_type{
+
+  .home_banner .home_banner_type {
     font-size: 11px;
     margin: 17 auto;
     text-align: center;
   }
-  .home_button{
+
+  .home_button {
     padding: 9px 20px !important;
     border-radius: 0px !important;
     font-size: 11px;
     margin: 0 auto !important;
     width: 150px;
   }
-  .home_banner p{
+
+  .home_banner p {
     font-size: 13px;
   }
-  .home_banner h3{
+
+  .home_banner h3 {
     font-size: 24px;
   }
-  .home_banner span{
+
+  .home_banner span {
     font-size: 14px;
   }
-  .home_interest h2{
+
+  .home_interest h2 {
     font-size: 24px;
   }
-  .home_interest > div > div > div {
+
+  .home_interest>div>div>div {
     padding: 10px 16px !important;
   }
 }

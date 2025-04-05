@@ -189,7 +189,7 @@ export default function Home() {
             })}
 
             <div className="home_footer">
-              <p>Made with 💜 By Mohammad Sahil | © 2022</p>
+              <p>Made with 💜 By Mohammad Sahil | © {new Date().getFullYear()}</p>
               <p>Email: sahilmejakhas@gmail.com</p>
             </div>
           </div>
