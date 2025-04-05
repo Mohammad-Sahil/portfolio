@@ -54,7 +54,7 @@ export default function Home() {
             <div><h3>Hi, there... 👋</h3>
               <span>HOW ARE YOU ?</span>
               <p>
-                Myself Mohammad Sahil, a passionate developer with hands-on experience in building and deploying full-stack web and mobile applications. I specialize in creating scalable systems, automating workflows, and integrating cloud solutions. I enjoy solving real-world problems through code and continuously explore new technologies to improve my skill set. I'm actively involved in open-source contributions and collaborative projects that make a meaningful impact. I've also worked with multiple startups, gaining practical experience in fast-paced environments and delivering solutions that align with user and business needs.
+                Myself Mohammad Sahil, a passionate developer with hands-on experience in building and deploying full-stack web and mobile applications. I specialize in creating scalable systems, automating workflows, and integrating cloud solutions. I enjoy solving real-world problems through code and continuously explore new technologies to improve my skill set. I&apos;m actively involved in open-source contributions and collaborative projects that make a meaningful impact. I&apos;ve also worked with multiple startups, gaining practical experience in fast-paced environments and delivering solutions that align with user and business needs.
               </p>
             </div>
           </div>
