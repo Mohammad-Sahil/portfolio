@@ -57,6 +57,19 @@ const projectsArray = [
     projectImg: masterjiapp.src,
   },
   {
+    title: "My Portfolio",
+    para: "This website is fully functional highly responsive, built using Typescript, NextJS, MUI, firebase, Emotion and hosted on Vercel and designed on Figma",
+    githubLink: "https://github.com/Mohammad-Sahil/portfolio/",
+    liveLink: "https://tsharpsahil.tech/",
+    tag1: "Typescript",
+    tag2: "NextJS",
+    tag3: "Firebase",
+    tag4: "MUI",
+    tag5: "Emotion",
+    tag6: "Vercel",
+    projectImg: portfolio.src,
+  },
+  {
     title: "Uber Eats Clone (Food Delivery)",
     para: "Developed a cross platform mobile application using React Native and Styled CSS. Developed with modern UI elements, authentication, Google Places API, Checkout etc",
     githubLink: "https://github.com/Mohammad-Sahil/uber-eats/",
@@ -146,20 +159,7 @@ const projectsArray = [
     tag5: "Google Auth",
     tag6: "Vercel",
     projectImg: whatsapp.src,
-  }, ,
-  {
-    title: "My Portfolio",
-    para: "This website is fully functional highly responsive, built using Typescript, NextJS, MUI, firebase, Emotion and hosted on Vercel and designed on Figma",
-    githubLink: "https://github.com/Mohammad-Sahil/portfolio/",
-    liveLink: "https://tsharpsahil.tech/",
-    tag1: "Typescript",
-    tag2: "NextJS",
-    tag3: "Firebase",
-    tag4: "MUI",
-    tag5: "Emotion",
-    tag6: "Vercel",
-    projectImg: portfolio.src,
-  }
+  },
 ]
 
 export default function Home() {

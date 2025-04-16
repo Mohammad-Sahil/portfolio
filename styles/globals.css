@@ -22,7 +22,7 @@ a {
  * All of the styles in this file are configurable!
  */
 
- .CircularProgressbar {
+.CircularProgressbar {
   /*
    * This fixes an issue where the CircularProgressbar svg has
    * 0 width inside a "display: flex" container, and thus not visible.
@@ -85,7 +85,7 @@ a {
 }
 
 
-.home_footer{
+.home_footer {
   padding: 20px;
   color: #9C9CA2;
   display: flex;
@@ -93,17 +93,19 @@ a {
   margin-top: 50px;
   background: linear-gradient(95.32deg, #252532 0%, #242430 100%);
 }
-.home_footer p{
+
+.home_footer p {
   margin-bottom: 0;
 }
-.home_footer p:nth-child(2){
+
+.home_footer p:nth-child(2) {
   margin-left: auto;
   margin-right: 0;
 }
 
 /* blogs page blog styling  */
 
-.blog_container_blog_card{
+.blog_container_blog_card {
   width: 100%;
   padding: 17px;
   background: #252532;
@@ -111,40 +113,48 @@ a {
   color: #8C8C8E;
   min-height: 426px;
 }
-.blog_container_blog_card > img{
+
+.blog_container_blog_card>img {
   width: 100%;
   border-radius: 9px;
   height: 140px;
 }
-.blog_container_blog_card > h3{
+
+.blog_container_blog_card>h3 {
   font-weight: 800;
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
   margin-top: 14px;
 }
-.blog_container_blog_card > p{
+
+.blog_container_blog_card>p {
   font-size: 17px;
   line-height: 23px;
   color: #9c9ca296;
 }
-.blog_container_blog_card > a{
+
+.blog_container_blog_card>a {
   color: #9C9CA2;
 }
-.blog_container_blog_card > a:hover{
+
+.blog_container_blog_card>a:hover {
   color: #9C9CA2;
 }
-.blog_container_blog_card > a:hover .buttons_blogCard{
+
+.blog_container_blog_card>a:hover .buttons_blogCard {
   color: #9C9CA2;
   background-color: #0000000c;
 }
-.buttons_blogCard{
+
+.buttons_blogCard {
   /* background: rgba(30, 30, 40, 0.8); */
   margin: 0 -17px -17px -17px;
   padding: 13px;
   position: relative;
 }
-.buttons_blogCard::before{
+
+.buttons_blogCard::before {
   content: '';
   position: absolute;
   top: 0;
@@ -153,24 +163,29 @@ a {
   height: 2px;
   background-color: #2B2B34;
 }
-@media(max-width: 768px){
-  .home_footer p:nth-child(2){
+
+@media(max-width: 768px) {
+  .home_footer p:nth-child(2) {
     display: none;
   }
-  .tagNone{
+
+  .tagNone {
     display: none;
   }
-  .home_footer{
+
+  .home_footer {
     margin-top: 30px;
     font-size: 14px !important;
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
   }
-  .page_title{
+
+  .page_title {
     font-size: 26px !important;
   }
 }
+
 /* DesignCard Styling */
 
 .grid--container {
@@ -179,68 +194,79 @@ a {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
 }
+
 .grid--image {
-  background-size: cover;  
+  background-size: cover;
   background-position: center;
   grid-column: 1 / 7;
   grid-row: 1 / 9;
 }
+
 .grid--content {
   background-color: hsla(240, 12%, 20%, 0.8);
   color: white;
   grid-column: 6 / -1;
   grid-row: 4 / -1;
 }
-.card--content{
+
+.card--content {
   color: #8C8C8E;
 }
+
 .card--title {
   font-family: 'Blinker', sans-serif;
   font-weight: 800;
   font-size: 30px;
   color: rgba(255, 255, 255, 0.8)
 }
+
 .btn_button {
   border: 1px solid #b866f7;
   color: white;
   background: linear-gradient(135deg, #A957E3 0%, #DA6E83 96%);
 }
+
 .btn_button:hover {
-    background: #000;
-    color: #8C8C8E;
-    border-color: #8C8C8E;
-    box-shadow: 0 0 32px rgba(0,0,0,0.2);
- }
+  background: #000;
+  color: #8C8C8E;
+  border-color: #8C8C8E;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+}
 
 @media (max-width: 1000px) {
   .grid-container {
     height: 100%;
   }
+
   .grid--content {
-     background-color: hsla(240, 12%, 20%, 0.8);
+    background-color: hsla(240, 12%, 20%, 0.8);
     grid-column: 5 / span 6;
   }
 }
+
 @media (max-width: 768px) {
   .grid--image {
     grid-column: 1 / -1
   }
- 
+
   .grid--content {
-     background-color: hsla(240, 12%, 20%, 0.8);
+    background-color: hsla(240, 12%, 20%, 0.8);
     grid-column: 2 / span 8;
     grid-row: 6 / -1;
     min-height: 100%;
   }
 }
+
 @media (max-width: 500px) {
   .grid--container {
-    box-shadow: 0 0 32px rgba(0,0,0,0.5);
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
   }
+
   .grid--image {
     grid-column: 1 / -1;
     grid-row: 1 / span 4;
   }
+
   .grid--content {
     background-color: hsla(240, 12%, 20%, 0.8);
     grid-column: 1 / -1;
@@ -253,148 +279,149 @@ a {
 
 
 figure.effect-sadie figcaption::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: -webkit-linear-gradient(to bottom, rgb(72 76 97 / 91%) 0%, rgba(72,76,97,0.8) 75%);
-	background: linear-gradient(to bottom, rgb(72 76 97 / 91%) 0%, rgba(72,76,97,0.8) 75%);
-	content: '';
-	opacity: 0;
-	-webkit-transform: translate3d(0,50%,0);
-	transform: translate3d(0,50%,0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(to bottom, rgb(72 76 97 / 91%) 0%, rgba(72, 76, 97, 0.8) 75%);
+  background: linear-gradient(to bottom, rgb(72 76 97 / 91%) 0%, rgba(72, 76, 97, 0.8) 75%);
+  content: '';
+  opacity: 0;
+  -webkit-transform: translate3d(0, 50%, 0);
+  transform: translate3d(0, 50%, 0);
 }
 
 figure.effect-sadie h2 {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 100%;
-	color: #484c61;
-	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
-	transition: transform 0.35s, color 0.35s;
-	-webkit-transform: translate3d(0,-50%,0);
-	transform: translate3d(0,-50%,0);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  color: #484c61;
+  -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+  transition: transform 0.35s, color 0.35s;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
 }
 
 figure.effect-sadie figcaption::before,
 figure.effect-sadie p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-sadie p {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 2em;
-	width: 100%;
-	opacity: 0;
-	-webkit-transform: translate3d(0,10px,0);
-	transform: translate3d(0,10px,0);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
 }
 
 figure.effect-sadie:hover h2 {
-	color: #fff;
+  color: #fff;
   opacity: 1;
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
-	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
 }
-figure.effect-sadie:hover img{
+
+figure.effect-sadie:hover img {
   opacity: 0.6;
 }
 
-figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover figcaption::before,
 figure.effect-sadie:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 
 .grid {
-	position: relative;
-	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1000px;
-	list-style: none;
-	text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
 }
 
 /* Common style */
 .grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	/* max-height: 360px; */
-	width: 48%;
-	background: #3085a3;
-	text-align: center;
-	cursor: pointer;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  /* max-height: 360px; */
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
 }
 
 .grid figure img {
-	position: relative;
-	display: block;
-	min-height: 100%;
-	max-width: 100%;
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
 }
 
 .grid figure figcaption {
-	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .grid figure figcaption::before,
 .grid figure figcaption::after {
-	pointer-events: none;
+  pointer-events: none;
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.grid figure figcaption>a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
-	z-index: 1000;
-	text-indent: 200%;
-	white-space: nowrap;
-	font-size: 0;
-	opacity: 0;
+.grid figure figcaption>a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
 }
 
 .grid figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
+  word-spacing: -0.15em;
+  font-weight: 300;
   opacity: 0;
 }
 
 .grid figure h2 span {
-	font-weight: 800;
+  font-weight: 800;
 }
 
 .grid figure h2,
 .grid figure p {
-	margin: 0;
+  margin: 0;
 }
 
 .grid figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
+  letter-spacing: 1px;
+  font-size: 68.5%;
 }
 
 /* pulse animation */
@@ -409,9 +436,10 @@ figure.effect-sadie:hover p {
   box-shadow: 0 0 0 rgba(176, 73, 255, 0.6);
   animation: pulse 2s infinite;
   position: absolute;
-  right: 25px;
+  right: 33px;
   bottom: -5px;
 }
+
 .pulse:hover {
   animation: none;
 }
@@ -420,24 +448,29 @@ figure.effect-sadie:hover p {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(176, 73, 255, 0.6);
   }
+
   70% {
-      -webkit-box-shadow: 0 0 0 10px rgba(176, 73, 255, 0);
+    -webkit-box-shadow: 0 0 0 10px rgba(176, 73, 255, 0);
   }
+
   100% {
-      -webkit-box-shadow: 0 0 0 0 rgba(176, 73, 255, 0);
+    -webkit-box-shadow: 0 0 0 0 rgba(176, 73, 255, 0);
   }
 }
+
 @keyframes pulse {
   0% {
     -moz-box-shadow: 0 0 0 0 rgba(176, 73, 255, 0.6s);
     box-shadow: 0 0 0 0 rgba(176, 73, 255, 0.6s);
   }
+
   70% {
-      -moz-box-shadow: 0 0 0 10px rgba(176, 73, 255, 0);
-      box-shadow: 0 0 0 10px rgba(176, 73, 255, 0);
+    -moz-box-shadow: 0 0 0 10px rgba(176, 73, 255, 0);
+    box-shadow: 0 0 0 10px rgba(176, 73, 255, 0);
   }
+
   100% {
-      -moz-box-shadow: 0 0 0 0 rgba(176, 73, 255, 0);
-      box-shadow: 0 0 0 0 rgba(176, 73, 255, 0);
+    -moz-box-shadow: 0 0 0 0 rgba(176, 73, 255, 0);
+    box-shadow: 0 0 0 0 rgba(176, 73, 255, 0);
   }
 }

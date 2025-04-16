@@ -14,9 +14,9 @@ const Stacks = [
     },
     {
         id: 3,
-        title: "C++",
+        title: "Dart",
         category: "GENERAL PROGRAMMING",
-        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+        img: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png"
     },
     {
         id: 4,
@@ -25,10 +25,28 @@ const Stacks = [
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png"
     },
     {
+        id: 4.5,
+        title: "C++",
+        category: "GENERAL PROGRAMMING",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+    },
+    {
         id: 5,
-        title: "ReactJS",
+        title: "React JS",
         category: "FRAMEWORKS & DATABASES",
-        img: "https://reactjs.org/logo-og.png"
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+    },
+    {
+        id: 5.6,
+        title: "Flutter",
+        category: "FRAMEWORKS & DATABASES",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flutter_logo.svg/2048px-Flutter_logo.svg.png"
+    },
+    {
+        id: 5.5,
+        title: "React Native",
+        category: "FRAMEWORKS & DATABASES",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
     },
     {
         id: 6,
@@ -55,28 +73,40 @@ const Stacks = [
         img: "https://logowik.com/content/uploads/images/firestore6915.jpg"
     },
     {
+        id: 9.5,
+        title: "DynamoDB",
+        category: "FRAMEWORKS & DATABASES",
+        img: "https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png"
+    },
+    {
         id: 10,
         title: "Redux",
         category: "TOOLS & UTILITIES",
-        img: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
+        img: "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
+    },
+    {
+        id: 10.5,
+        title: "Bloc",
+        category: "TOOLS & UTILITIES",
+        img: "https://plugins.jetbrains.com/files/12129/612258/icon/default.png"
     },
     {
         id: 11,
-        title: " REST APIS,",
+        title: " REST APIS",
         category: "TOOLS & UTILITIES",
-        img: "https://lh3.googleusercontent.com/-XvJzhz3pfH0/XjYG_xWkESI/AAAAAAAAJ9c/AYlgAtRknEU2W5fMcFhQoL6rmO8EBtIDQCK8BGAsYHg/s0/2020-02-01.png"
+        img: "https://www.iconpacks.net/icons/free-icons-6/free-rest-api-blue-logo-icon-22098-thumb.png"
     },
     {
         id: 12,
         title: "Next.js,",
         category: "TOOLS & UTILITIES",
-        img: "https://miro.medium.com/max/1000/1*htbUdWgFQ3a94PMEvBr_hQ.png"
+        img: "https://miro.medium.com/v2/resize:fit:983/1*W0fC854FAMD1EP60bnl2lg.png"
     },
     {
         id: 13,
         title: "Gatsby",
         category: "TOOLS & UTILITIES",
-        img: "https://codingthesmartway.com/wp-content/uploads/2019/02/gatsby-logo.png"
+        img: "https://upload.wikimedia.org/wikipedia/en/d/d0/Gatsby_Logo.png"
     },
     {
         id: 14,
@@ -91,10 +121,16 @@ const Stacks = [
         img: "https://pngset.com/images/cloud-service-management-aws-cloud-logo-symbol-trademark-text-label-transparent-png-2620254.png"
     },
     {
+        id: 15.5,
+        title: "GCP",
+        category: "TOOLS & UTILITIES",
+        img: "https://static-00.iconduck.com/assets.00/google-cloud-icon-2048x1646-7admxejz.png"
+    },
+    {
         id: 16,
         title: "Postman",
         category: "TOOLS & UTILITIES",
-        img: "https://f5-agility-labs-waf.readthedocs.io/en/latest/_images/image12.png"
+        img: "https://w7.pngwing.com/pngs/28/245/png-transparent-postman-hd-logo.png"
     },
     {
         id: 17,
@@ -132,7 +168,7 @@ const Stacks = [
         category: "TOOLS & UTILITIES",
         img: "https://seeklogo.com/images/A/after-effects-cc-logo-BCC55BAFF7-seeklogo.com.png"
     },
-    
+
 ];
 
 export default Stacks;
