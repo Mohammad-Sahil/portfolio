@@ -49,6 +49,9 @@ const Sidebar = ({ display }) => {
             <div className={styles.sidebar_footer}>
                 <div className={styles.sidebar_icon}>
                     <Link href='https://github.com/Mohammad-Sahil' className='text-decoration-none'><GitHubIcon style={{ fontSize: "15px", cursor: "pointer", color: "#8c8c8e", marginLeft: "4px", marginRight: "4px" }} /></Link>
+                    <Link href='https://leetcode.com/u/tsharpsahil/' className='text-decoration-none'>
+                        <img src="leetcode.svg" alt="LeetCode" style={{ width: "14px", height: "14px", cursor: "pointer", color: "#8c8c8e", marginLeft: "4px", marginRight: "4px" }} />
+                    </Link>
                     <Link href='https://tsharpsahil.medium.com/' className='text-decoration-none'><i className="fa fa-medium" style={{ cursor: "pointer", color: "#8c8c8e" }} aria-hidden="true"></i></Link>
                     <Link href='https://www.linkedin.com/in/tsharpsahilemeja/' className='text-decoration-none'><LinkedInIcon style={{ fontSize: "15px", cursor: "pointer", color: "#8c8c8e", marginLeft: "4px", marginRight: "4px" }} /></Link>
                     <Link href='https://twitter.com/tsharpsahil' className='text-decoration-none'><TwitterIcon style={{ fontSize: "15px", cursor: "pointer", color: "#8c8c8e", marginLeft: "4px", marginRight: "4px" }} /></Link>
