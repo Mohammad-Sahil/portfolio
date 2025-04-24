@@ -7,7 +7,7 @@ import EBSB from '../public/por/EBSB.png'
 import tbs from '../public/por/logo.jpg'
 import ecell from '../public/por/LOGO01.jpg'
 import vriddhi from '../public/por/vriddhi.jpg'
-
+import nitraa from '../public/por/nitraa.jpg'
 
 
 export default function Home() {
@@ -92,7 +92,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-12 col-md-6">
                                     <div className={styles.por_card}>
-                                        <img src="https://www.eqmagpro.com/wp-content/uploads/2021/07/nit-rourkela.jpg" alt="Tech Icon" />
+                                        <img src={nitraa.src} alt="Tech Icon" />
                                         <div>
                                             <h4>Designer & Developer</h4>
                                             <p className='m-0 p-0'>NITRAA</p>
