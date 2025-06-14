@@ -101,23 +101,8 @@ const Navbar = ({ display }) => {
         <ul className='p-0'>
           {navigationItems.map((item, index) => {
             return (
-              // <Tooltip
-              //   title={item.text}
-              //   TransitionComponent={Fade}
-              //   TransitionProps={{ timeout: 600 }}
-              //   placement="left"
-              //   arrow>
-              //   <li key={index}>
-              //     <Link href={item.route} className={linkStyle}>
-              //       <a className={aStyle}>
-              //         <IconButton>
-              //           <IconComponent style={{ color: "#94A3B8", fontSize: "1.6rem" }} />
-              //         </IconButton>
-              //       </a>
-              //     </Link>
-              //   </li>
-              // </Tooltip>
               <NavigationItem
+                key={index}
                 item={item}
                 index={index}
                 linkStyle={linkStyle}
