@@ -7,6 +7,12 @@ import TypeAnimation from 'react-type-animation'
 import Link from "next/link"
 
 export default function Home() {
+  const myInterests = [
+    'Full Stack Development',
+    'Cloud Computing & AI',
+    'Problem Solving',
+    'UI/UX Designing'
+  ]
 
   return (
     <>
@@ -14,17 +20,17 @@ export default function Home() {
         <div className={styles.home_container_container}>
           <div className={styles.home_banner}>
             <div>
-              <h2>Discover my Amazing<br />Project Space!</h2>
+              <h2>Discover my <span className="gradient-text">Amazing</span><br />Project Space!</h2>
               <div className={styles.home_banner_type}>&lt;<i>code</i>&gt;  <TypeAnimation
                 cursor={true}
                 sequence={[
-                  ' I build full-stack web and mobile applications.',
+                  ' I build full-stack web and mobile applications. ',
                   2000,
-                  'I deploy scalable cloud solutions using Firebase, GCP, and AWS.',
+                  ' I deploy scalable cloud solutions using Firebase, GCP, and AWS. ',
                   2000,
-                  'I am an Ai enthusiast and thrive in collaborative environments.',
+                  ' I am an Ai enthusiast and thrive in collaborative environments. ',
                   2000,
-                  'I craft intuitive & responsive ui for modern web and mobile platforms.',
+                  ' I craft intuitive & responsive ui for modern web and mobile platforms. ',
                   2000,
                 ]}
 
@@ -33,15 +39,8 @@ export default function Home() {
               />&lt;/<i>code</i>&gt;</div>
               <Link href="/projects" className="text-decoration-none text-white">
                 <Button
-                  // onClick={openOauth}
                   className={styles.home_button}
-                  sx={{
-                    borderColor: "#AA1EF1",
-                    color: "white",
-                    background: "linear-gradient(90deg, #DA6E82 0%, #A756E6 100%);",
-                  }}
                   variant="contained"
-                // disabled={true}
                 >
                   EXPLORE NOW
                 </Button>
@@ -52,22 +51,51 @@ export default function Home() {
           </div>
           <div className={styles.home_banner}>
             <div><h3>Hi, there... 👋</h3>
-              <span>HOW ARE YOU ?</span>
+              <span className={styles.ask_how}>HOW ARE YOU ?</span>
               <p>
-                Myself Mohammad Sahil, a passionate developer with hands-on experience in building and deploying full-stack web and mobile applications. I specialize in creating scalable systems, automating workflows, and integrating cloud solutions. I enjoy solving real-world problems through code and continuously explore new technologies to improve my skill set. I&apos;m actively involved in open-source contributions and collaborative projects that make a meaningful impact. I&apos;ve also worked with multiple startups, gaining practical experience in fast-paced environments and delivering solutions that align with user and business needs.
+                Hi, I&apos;m <span className={styles.text1}>Mohammad Sahil</span> — a <span className={styles.text2}>Full-Stack Developer</span> passionate about building scalable web and mobile apps. I specialize in <span className={styles.text2}>React.js</span>, <span className={styles.text2}>Next.js</span>, <span className={styles.text2}>Node.js</span>, <span className={styles.text3}>TypeScript</span>, <span className={styles.text3}>React Native</span>, <span className={styles.text3}>Flutter</span>, <span className={styles.text1}>Firebase</span>, <span className={styles.text1}>AWS</span>, and <span className={styles.text1}>GCP</span>. I&apos;ve led end-to-end development for startups like Talentz, Just-Speak, and Masterji Tailor, delivering real-time dashboards, admin panels, and production-ready systems. With hands-on experience in cloud integration and automation, I thrive in fast-paced, problem-solving environments. I&apos;m also an active open-source contributor focused on projects that create real-world impact. I love turning complex problems into clean, elegant solutions that drive business and user value.
               </p>
             </div>
           </div>
           <div className={styles.home_interest}>
             <div>
-              <h2>My Interests lies in</h2>
+              <h2>My Interests lie in</h2>
               <div className="row">
-                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>Full Stack Development</p></div></div>
-                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>Cloud Computing & AI</p></div></div>
-                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>Problem Solving</p></div></div>
-                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3"><div className={styles.interest_div}><div className={styles.interest_div_icon}><i className="fa fa-code"></i></div><p>UI/UX Designing</p></div></div>
+                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3">
+                  <div className={styles.interest_div}>
+                    <div className={styles.interest_div_icon}>
+                      <i className="fas fa-laptop-code"></i>
+                    </div>
+                    <p>Full Stack Development</p>
+                  </div>
+                </div>
+                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3">
+                  <div className={styles.interest_div}>
+                    <div className={styles.interest_div_icon}>
+                      <i className="fas fa-cloud"></i>
+                    </div>
+                    <p>Cloud Computing & AI</p>
+                  </div>
+                </div>
+                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3">
+                  <div className={styles.interest_div}>
+                    <div className={styles.interest_div_icon}>
+                      <i className="fas fa-brain"></i>
+                    </div>
+                    <p>Problem Solving</p>
+                  </div>
+                </div>
+                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3">
+                  <div className={styles.interest_div}>
+                    <div className={styles.interest_div_icon}>
+                      <i className="fas fa-pencil-ruler"></i>
+                    </div>
+                    <p>UI/UX Designing</p>
+                  </div>
+                </div>
               </div>
             </div>
+
           </div>
           <div className='home_footer'>
             <p>Made with 💜 By Mohammad Sahil | © {new Date().getFullYear()}</p>
