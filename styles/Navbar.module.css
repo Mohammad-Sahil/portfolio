@@ -2,7 +2,7 @@
     margin-left: auto !important;
     margin-right: 0 !important;
     width: 90px;
-    height: calc(100vh - 30px);
+    height: calc(100vh - 16px);
     background-color: #1E293B;
     /* background: linear-gradient(to bottom right, #1e293b, #0f172a); */
     position: relative;

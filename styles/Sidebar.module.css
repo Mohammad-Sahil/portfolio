@@ -1,6 +1,6 @@
 .sidebar_container {
     width: 290px;
-    height: calc(100vh - 30px);
+    height: calc(100vh - 16px);
     /* background: #1E293B; */
     background: linear-gradient(to bottom right, #1e293b, #0f172a);
     position: relative;
