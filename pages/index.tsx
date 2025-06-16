@@ -9,11 +9,9 @@ export default function Home() {
   const [showHome, setShowHome] = useState(false);
   return (
     <>
-      <Layout>
-        {showHome ? <HomePage /> : <SplashScreen
-          setShowHome={setShowHome}
-        />}
-      </Layout>
+      {showHome ? <Layout><HomePage /></Layout> : <SplashScreen
+        setShowHome={setShowHome}
+      />}
     </>
   )
 }
