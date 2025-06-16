@@ -99,7 +99,7 @@ const SplashScreen = ({ setShowHome }) => {
         
         .splash-container {
           min-height: calc(100vh - 32px);
-          background: linear-gradient(to bottom right, #1e293b, #0f172a);
+          // background: linear-gradient(to bottom right, #1e293b, #0f172a);
           display: flex;
           align-items: center;
           justify-content: center;
