@@ -18,7 +18,7 @@ export default function Home() {
       <Layout>
         <div className={styless.home_container_container} style={{ marginTop: "0" }}>
           <div className={styles.project_container}>
-            <div className={styles.project_header}>
+            <div className={styles.project_header} style={{ marginBottom: "1rem" }}>
               <div className="row w-100 align-items-center">
                 <div className="col-12 col-md-6 text-start">
                   <h2 className="page_title mb-md-0">

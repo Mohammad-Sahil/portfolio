@@ -244,6 +244,15 @@ a {
   animation: gradientRotate 3s ease-in-out infinite;
 }
 
+.btn-animation:hover {
+  animation: gradientRotate 3s ease-in-out infinite;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.btn-animation:hover .mk-transparent {
+  background-color: transparent !important;
+}
+
 @keyframes gradientRotate {
   0% {
     background-position: 0% 50%;
