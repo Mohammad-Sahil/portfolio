@@ -9,18 +9,15 @@
     color: #94A3B8;
     padding: 10px 3px 12px 3px;
     position: relative;
+    font-size: 24px;
 }
 
-.project_container .project_header::after {
-    position: absolute;
-    top: 70px;
-    left: 0px;
-    right: 0px;
-    width: calc(100% - 50px);
-    height: 2px;
-    content: '';
-    background-color: #222e41;
-    margin: 0 25px;
+.project_container .project_header {
+    background-color: #1e293b;
+    margin: 0 -25px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-bottom: 1px solid #38384A;
 }
 
 .project_macframe {
@@ -104,19 +101,17 @@
 .category_btn {
     padding: 6px 26px;
     border-radius: 8px;
-    border: 1px solid #c084fc;
-    background: transparent;
+    border: 1px solid #334155;
     color: #c084fc;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    background-color: #334155;
+    color: #94A3B8;
 }
 
+.category_btn.active,
 .category_btn:hover {
-    background: rgba(108, 99, 255, 0.1);
-}
-
-.category_btn.active {
     background: #ae45ff;
     border: 1px solid #ae45ff;
     color: white;

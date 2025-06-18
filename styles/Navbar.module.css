@@ -6,6 +6,7 @@
     background-color: #1E293B;
     /* background: linear-gradient(to bottom right, #1e293b, #0f172a); */
     position: relative;
+    border-left: 1px solid #38384A;
 }
 
 .nav_menu {

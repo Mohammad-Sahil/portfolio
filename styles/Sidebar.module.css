@@ -4,6 +4,7 @@
     /* background: #1E293B; */
     background: linear-gradient(to bottom right, #1e293b, #0f172a);
     position: relative;
+    border-right: 1px solid #38384A;
 }
 
 .sidebar_container .sidebar_profilecard {

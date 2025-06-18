@@ -12,6 +12,7 @@ export default function Document() {
                     crossOrigin="anonymous"
                     referrerPolicy="no-referrer"
                 />
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             </Head>
             <body>
                 <Main />

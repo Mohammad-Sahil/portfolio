@@ -1,76 +1,162 @@
-import MacFrame from '../public/MacFrame.svg'
-import laptopModel from '../public/laptopModel.png'
-import IosShareIcon from '@mui/icons-material/IosShare';
-import InfoIcon from '@mui/icons-material/Info';
-import styles from '../styles/Projects.module.css'
-import Button from "@mui/material/Button"
-import GitHubIcon from '@mui/icons-material/GitHub';
+import React from 'react';
 import Router from 'next/router';
 
-const Project = (props) => {
+interface ProjectProps {
+    projectImg: string;
+    title: string;
+    para: string;
+    githubLink: string;
+    liveLink: string;
+    tag1: string;
+    tag2: string;
+    tag3: string;
+    tag4: string;
+    tag5: string;
+    tag6: string;
+}
+
+const Project: React.FC<ProjectProps> = (props) => {
+    const containerStyle = {
+        minHeight: '100vh',
+        backgroundColor: '#0F172A',
+        fontFamily: "'Inter', sans-serif"
+    };
+
+    const cardStyle = {
+        backgroundColor: '#1E293B',
+        borderRadius: '8px',
+        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+        overflow: 'hidden',
+        maxWidth: '64rem'
+    };
+
+    const titleStyle = {
+        color: '#A78BFA',
+        textShadow: '0 0 8px rgba(167, 139, 250, 0.4)',
+        fontWeight: 'bold'
+    };
+
+    const textStyle = {
+        color: '#E2E8F0',
+        lineHeight: '1.625'
+    };
+
+    const sectionTitleStyle = {
+        color: '#A78BFA',
+        fontWeight: '600',
+        fontSize: '1rem'
+    };
+
+    const tagStyle = {
+        backgroundColor: 'rgba(139, 92, 246, 0.2)',
+        color: '#A78BFA',
+        fontSize: '0.75rem',
+        fontWeight: '500',
+        padding: '0.375rem 0.75rem',
+        borderRadius: '9999px',
+        display: 'inline-block',
+        margin: '0.125rem'
+    };
+
+    const primaryButtonStyle = {
+        backgroundColor: '#8B5CF6',
+        color: 'white',
+        fontWeight: '500',
+        padding: '0.625rem 1.25rem',
+        borderRadius: '0.375rem',
+        border: 'none',
+        fontSize: '0.875rem',
+        transition: 'background-color 0.3s ease',
+        cursor: 'pointer'
+    };
+
+    const secondaryButtonStyle = {
+        backgroundColor: '#475569',
+        color: 'white',
+        fontWeight: '500',
+        padding: '0.625rem 1.25rem',
+        borderRadius: '0.375rem',
+        border: 'none',
+        fontSize: '0.875rem',
+        transition: 'background-color 0.3s ease',
+        cursor: 'pointer'
+    };
+
     return (
-        <div className={styles.project_macframe}>
-            <img src={MacFrame.src} alt="Mac Frame" />
-            <div className={styles.macFrame_content}>
-                <div className="row">
-                    <div className="col-12 col-md-6 d-flex justify-content-center">
-                        <img src={props.projectImg} style={{ borderRadius: "15px" }} alt="Project Img" className={styles.macFrame_content_img} />
-                    </div>
-                    <div className="col-12 col-md-6 mx-auto">
-                        <div className={styles.macFrame_content_details}>
-                            <div className="px-2">
-                                <h2>{props.title}</h2>
-                                <p>{props.para}</p>
-                                <div className="row">
-                                    <div className="col-6">
-                                        <Button
-                                            onClick={() => Router.push(`${props.githubLink}`)}
-                                            className={styles.project_button}
-                                            sx={{
-                                                borderColor: "#AA1EF1",
-                                                color: "white",
-                                                background: "linear-gradient(90deg, #DA6E82 0%, #A756E6 100%);",
-                                            }}
-                                            variant="contained"
-                                        // disabled={true}
-                                        >
-                                            GITHUB <GitHubIcon />
-                                        </Button>
-                                    </div>
-                                    <div className="col-6">
-                                        <Button
-                                            onClick={() => Router.push(`${props.liveLink}`)}
-                                            className={styles.project_button}
-                                            sx={{
-                                                borderColor: "#AA1EF1",
-                                                color: "white",
-                                                background: "linear-gradient(90deg, #DA6E82 0%, #A756E6 100%);",
-                                            }}
-                                            variant="contained"
-                                        // disabled={true}
-                                        >
-                                            LIVE <IosShareIcon />
-                                        </Button>
-                                    </div>
-                                </div>
+        <div className="d-flex align-items-center justify-content-center p-4" style={containerStyle}>
+            <div className="w-100 row g-0" style={cardStyle}>
+                <div className="col-md-4">
+                    <img
+                        alt={`${props.title} preview`}
+                        className="h-100 w-100 object-fit-cover"
+                        src={props.projectImg}
+                        style={{ minHeight: '300px' }}
+                    />
+                </div>
+                <div className="col-md-8 p-4 p-sm-5 d-flex flex-column">
+                    <header className="mb-4">
+                        <h1 className="fs-2 fs-sm-1 mb-0" style={titleStyle}>
+                            {props.title}
+                        </h1>
+                    </header>
+
+                    <section className="mb-4">
+                        <p className="fs-6 fs-sm-5 mb-0" style={textStyle}>
+                            {props.para}
+                        </p>
+                    </section>
+
+                    <section className="mb-5">
+                        <h3 className="mb-3 d-flex align-items-center" style={sectionTitleStyle}>
+                            <span className="material-icons me-2 fs-5">settings_input_component</span>
+                            TECHNOLOGIES USED
+                        </h3>
+                        <div className="d-flex flex-wrap">
+                            {[props.tag1, props.tag2, props.tag3, props.tag4, props.tag5, props.tag6].map((tag, index) => (
+                                tag && (
+                                    <span
+                                        key={index}
+                                        style={tagStyle}
+                                    >
+                                        {tag}
+                                    </span>
+                                )
+                            ))}
+                        </div>
+                    </section>
+
+                    <footer className="mt-auto">
+                        <div className="row g-3 g-sm-4">
+                            <div className="col-12 col-sm-6">
+                                <button
+                                    onClick={() => Router.push(props.githubLink)}
+                                    className="w-100 d-flex align-items-center justify-content-center"
+                                    style={primaryButtonStyle}
+                                // onMouseEnter={(e) => e.target.style.backgroundColor = '#7C3AED'}
+                                // onMouseLeave={(e) => e.target.style.backgroundColor = '#8B5CF6'}
+                                >
+                                    <span className="material-icons me-2 fs-5">code</span>
+                                    VIEW SOURCE
+                                </button>
+                            </div>
+                            <div className="col-12 col-sm-6">
+                                <button
+                                    onClick={() => Router.push(props.liveLink)}
+                                    className="w-100 d-flex align-items-center justify-content-center"
+                                    style={secondaryButtonStyle}
+                                // onMouseEnter={(e) => e.target.style.backgroundColor = '#374151'}
+                                // onMouseLeave={(e) => e.target.style.backgroundColor = '#475569'}
+                                >
+                                    VISIT LIVE SITE
+                                    <span className="material-icons ms-2 fs-5">open_in_new</span>
+                                </button>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className={styles.macFrame_content_tag}>
-                    <div className="p-1 d-flex align-items-center" style={{ color: "#9C9CA2", fontSize: "10px", fontWeight: "700" }}><span className="p-1" style={{ color: "#A857E5" }}><InfoIcon /></span>TECH USED</div>
-                    <div className={styles.macFrame_content_tag_tags}>
-                        <p><span>#</span>{props.tag1}</p>
-                        <p><span>#</span>{props.tag2}</p>
-                        <p><span>#</span>{props.tag3}</p>
-                        <p><span>#</span>{props.tag4}</p>
-                        <p><span>#</span>{props.tag5}</p>
-                        <p><span>#</span>{props.tag6}</p>
-                    </div>
+                    </footer>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Project
+export default Project;

@@ -13,7 +13,7 @@ function HomePage() {
         'UI/UX Designing'
     ]
     return (
-        <div className={styles.home_container_container}>
+        <div className={styles.home_container_container} style={{ marginTop: "26px" }}>
             <div className={styles.home_banner}>
                 <div>
                     <h2>Discover my <span className="gradient-text">Amazing</span><br />Project Space!</h2>

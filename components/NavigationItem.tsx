@@ -31,9 +31,10 @@ const NavigationItem = ({ item, index, linkStyle, aStyle }) => {
                 ...(isActive && {
                   backgroundColor: 'rgba(148, 163, 184, 0.1)',
                 }),
+                borderRadius: '.5rem',
                 '&:hover': {
                   backgroundColor: 'rgba(148, 163, 184, 0.1)',
-                  transform: 'scale(1.1)',
+                  // transform: 'scale(1.1)',
                 }
               }}
             >

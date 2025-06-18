@@ -9,9 +9,14 @@
     color: #94A3B8;
     padding: 10px 3px 12px 3px;
     position: relative;
+    background-color: #1e293b;
+    margin: 0 -25px;
+    padding-left: 27px;
+    border-bottom: 1px solid #38384A;
+    font-size: 24px;
 }
 
-.por_container>h2::after {
+/* .por_container>h2::after {
     position: absolute;
     bottom: 0;
     left: 0px;
@@ -19,7 +24,7 @@
     height: 2px;
     content: '';
     background-color: #222e41;
-}
+} */
 
 .por_container_div {
     width: 100%;

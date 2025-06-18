@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <div className={styless.home_container_container} style={{ marginTop: "-20px" }}>
+        <div className={styless.home_container_container} style={{ marginTop: "0" }}>
           <div className={styles.session_container}>
             <h2>Featured Designs</h2>
 

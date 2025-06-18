@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <div className={styless.home_container_container} style={{ marginTop: "-20px" }}>
+        <div className={styless.home_container_container} style={{ marginTop: "0" }}>
           <div className={styles.project_container}>
             <div className={styles.project_header}>
               <div className="row w-100 align-items-center">
@@ -25,7 +25,7 @@ export default function Home() {
                     Featured Projects
                   </h2>
                 </div>
-                <div className="col-12 col-md-6 text-md-end">
+                <div className="col-12 col-md-6 text-md-end px-0">
                   <div className={styles.category_buttons} style={{ float: "right" }}>
                     <button
                       className={`${styles.category_btn} ${category === 'all' ? styles.active : ''}`}
