@@ -7,11 +7,24 @@ import Button from "@mui/material/Button"
 
 function HomePage() {
     const myInterests = [
-        'Full Stack Development',
-        'Cloud Computing & AI',
-        'Problem Solving',
-        'UI/UX Designing'
+        {
+            name: 'Full Stack Development',
+            icon: 'fas fa-laptop-code'
+        },
+        {
+            name: 'Cloud Computing & AI',
+            icon: 'fas fa-cloud'
+        },
+        {
+            name: 'Problem Solving',
+            icon: 'fas fa-brain'
+        },
+        {
+            name: 'UI/UX Designing',
+            icon: 'fas fa-pencil-ruler'
+        },
     ]
+
     return (
         <div className={styles.home_container_container} style={{ marginTop: "26px" }}>
             <div className={styles.home_banner}>
@@ -43,7 +56,6 @@ function HomePage() {
                     </Link>
 
                 </div>
-                {/* <img src={bannerImg.src} alt="Sahil full img" /> */}
             </div>
             <div className={styles.home_banner}>
                 <div><h3>Hi, there... 👋</h3>
@@ -62,9 +74,9 @@ function HomePage() {
                                 <div key={index} className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3">
                                     <div className={styles.interest_div}>
                                         <div className={styles.interest_div_icon}>
-                                            <i className="fas fa-laptop-code"></i>
+                                            <i className={interest.icon}></i>
                                         </div>
-                                        <p>{interest}</p>
+                                        <p>{interest.name}</p>
                                     </div>
                                 </div>
                             )
