@@ -131,10 +131,6 @@ export default function Home() {
                     <Button
                       type="submit"
                       className={styles.contact_container_div_button}
-                      sx={{
-                        borderColor: "#AA1EF1",
-                        background: "linear-gradient(90deg, #DA6E82 0%, #A756E6 100%);",
-                      }}
                       variant="contained"
                     >
                       SEND MESSAGE

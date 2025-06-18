@@ -1,13 +1,12 @@
 .project_container {
     width: 100%;
-    /* background-color: red; */
 }
 
 .project_container h2 {
     font-weight: 800;
     font-size: 30px;
     line-height: 36px;
-    color: #9C9CA2;
+    color: #94A3B8;
     padding: 10px 3px 12px 3px;
     position: relative;
 }
@@ -20,7 +19,7 @@
     width: calc(100% - 50px);
     height: 2px;
     content: '';
-    background-color: #2B2B34;
+    background-color: #222e41;
     margin: 0 25px;
 }
 
@@ -103,11 +102,11 @@
 }
 
 .category_btn {
-    padding: 8px 16px;
-    border-radius: 20px;
-    border: 1px solid #ae45ff;
+    padding: 6px 26px;
+    border-radius: 8px;
+    border: 1px solid #c084fc;
     background: transparent;
-    color: #ae45ff;
+    color: #c084fc;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -119,6 +118,7 @@
 
 .category_btn.active {
     background: #ae45ff;
+    border: 1px solid #ae45ff;
     color: white;
 }
 

@@ -1,6 +1,5 @@
 .session_container {
     width: 100%;
-    /* background-color: red; */
 }
 
 .session_container>h2 {
@@ -24,15 +23,18 @@
 
 .session_container_div {
     width: 100%;
-    background-color: #2C2C38;
-    margin-top: 50px;
-    /* padding-bottom: 35px; */
+    background: linear-gradient(to bottom right, #1e293b, #0f172a);
     height: 200px;
+    padding: 30px 40px;
+    border-radius: .75rem;
+
+
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 36px;
-    color: #9C9CA2;
+    color: #94A3B8;
     font-weight: 800;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }

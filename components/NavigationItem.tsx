@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 import Tooltip from '@mui/material/Tooltip';
 import Fade from '@mui/material/Fade';
@@ -6,7 +7,10 @@ import IconButton from '@mui/material/IconButton';
 
 const NavigationItem = ({ item, index, linkStyle, aStyle }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const IconComponent = isHovered ? item.iconFilled : item.icon;
+  const router = useRouter();
+  const isActive = router.pathname === item.route;
+
+  const IconComponent = (isHovered || isActive) ? item.iconFilled : item.icon;
 
   return (
     <Tooltip
@@ -24,6 +28,9 @@ const NavigationItem = ({ item, index, linkStyle, aStyle }) => {
               onMouseLeave={() => setIsHovered(false)}
               sx={{
                 transition: 'all 0.3s ease',
+                ...(isActive && {
+                  backgroundColor: 'rgba(148, 163, 184, 0.1)',
+                }),
                 '&:hover': {
                   backgroundColor: 'rgba(148, 163, 184, 0.1)',
                   transform: 'scale(1.1)',
@@ -32,7 +39,8 @@ const NavigationItem = ({ item, index, linkStyle, aStyle }) => {
             >
               <IconComponent
                 style={{
-                  color: isHovered ? "#94A3B8" : "#94A3B8",
+                  // Apply purple color when hovered OR active
+                  color: (isHovered || isActive) ? "#c084fc" : "#94A3B8",
                   fontSize: "1.6rem",
                   transition: 'all 0.3s ease'
                 }}

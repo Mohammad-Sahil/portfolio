@@ -110,9 +110,9 @@ a {
 .blog_container_blog_card {
   width: 100%;
   padding: 17px;
-  background: #252532;
+  background: linear-gradient(to bottom right, #1e293b, #1e293b, #0f172a);
   border-radius: 4.5px;
-  color: #8C8C8E;
+  color: #94A3B8;
   min-height: 426px;
 }
 
@@ -133,19 +133,19 @@ a {
 .blog_container_blog_card>p {
   font-size: 17px;
   line-height: 23px;
-  color: #9c9ca296;
+  color: #94A3B8;
 }
 
 .blog_container_blog_card>a {
-  color: #9C9CA2;
+  color: #94A3B8;
 }
 
 .blog_container_blog_card>a:hover {
-  color: #9C9CA2;
+  color: #94A3B8;
 }
 
 .blog_container_blog_card>a:hover .buttons_blogCard {
-  color: #9C9CA2;
+  color: #94A3B8;
   background-color: #0000000c;
 }
 
@@ -163,7 +163,7 @@ a {
   left: 17px;
   width: calc(100% - 34px);
   height: 2px;
-  background-color: #2B2B34;
+  background-color: #222e41;
 }
 
 @media(max-width: 768px) {
@@ -202,37 +202,58 @@ a {
   background-position: center;
   grid-column: 1 / 7;
   grid-row: 1 / 9;
+  border-radius: .75rem;
 }
 
 .grid--content {
-  background-color: hsla(240, 12%, 20%, 0.8);
+  background: linear-gradient(to bottom right, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.8));
+  border-radius: .75rem;
   color: white;
   grid-column: 6 / -1;
   grid-row: 4 / -1;
 }
 
 .card--content {
-  color: #8C8C8E;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .card--title {
   font-family: 'Blinker', sans-serif;
   font-weight: 800;
   font-size: 30px;
-  color: rgba(255, 255, 255, 0.8)
+  color: #94A3B8;
 }
 
 .btn_button {
-  border: 1px solid #b866f7;
+  padding: 10px 25px !important;
+  margin-top: 10px !important;
+  background: linear-gradient(45deg, #ec4899, #8b5cf6, #ec4899, #8b5cf6);
+  background-size: 400% 400%;
+  border-radius: 0.5rem !important;
+  border: none;
   color: white;
-  background: linear-gradient(135deg, #A957E3 0%, #DA6E83 96%);
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .btn_button:hover {
-  background: #000;
-  color: #8C8C8E;
-  border-color: #8C8C8E;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+  animation: gradientRotate 3s ease-in-out infinite;
+}
+
+@keyframes gradientRotate {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @media (max-width: 1000px) {
