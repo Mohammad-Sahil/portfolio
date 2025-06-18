@@ -39,7 +39,6 @@ const NavigationItem = ({ item, index, linkStyle, aStyle }) => {
             >
               <IconComponent
                 style={{
-                  // Apply purple color when hovered OR active
                   color: (isHovered || isActive) ? "#c084fc" : "#94A3B8",
                   fontSize: "1.6rem",
                   transition: 'all 0.3s ease'

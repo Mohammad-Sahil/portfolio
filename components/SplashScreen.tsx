@@ -1,10 +1,10 @@
 import React, { useState, useEffect, Dispatch, SetStateAction } from "react";
 
 interface SplashScreenProps {
-  setShowHome: Dispatch<SetStateAction<boolean>>;
+  setShowSplash: Dispatch<SetStateAction<boolean>>;
 }
 
-const SplashScreen = ({ setShowHome }) => {
+const SplashScreen = ({ setShowSplash }) => {
   const skills = [
     "React/NextJS",
     "React Native",
@@ -50,7 +50,7 @@ const SplashScreen = ({ setShowHome }) => {
           setCycleCount(newCycleCount);
 
           if (newCycleCount >= 1) {
-            setTimeout(() => setShowHome(true), 800);
+            setTimeout(() => setShowSplash(false), 800);
             return;
           }
         }
