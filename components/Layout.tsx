@@ -10,23 +10,23 @@ import { IconButton } from '@material-ui/core'
 import Chat from './Chat';
 
 const Layout = ({ children }) => {
-    const [ sidebarD, setSidebarD ] = useState("none");
-    const [ navbarD, setNavbarD ] = useState("none");
+  const [sidebarD, setSidebarD] = useState("none");
+  const [navbarD, setNavbarD] = useState("none");
 
-    return (
+  return (
     <>
-  <Head>
+      <Head>
         <title>Mohammad Sahil | Portfolio</title>
-        <meta charSet="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <link rel="icon" href="/favicon.ico" />
 
         {/* *********** Meta SEO***********  */}
         <meta property="og:title" content="Sahil has a keen interest in building highly scalable full stack web applications, he is an undergrad, pursuing Int MSc(5 year program) in Life Science at National Institute of Technology Rourkela. Founder and President of Club DevDribble at NIT Rourkela" />
-        <meta name="keywords"  content="Mohammad Sahil, Mohd Sahil, Mo Sahil, Sahil,  M Sahil, vriddhinitr, vriddhi, DevDribble,dev dribble, fest, festnitr, nitr,nitrkl,nitrourkela,nit,rourkela,nit rourkela,nitr developer, developer, nitr mern developer" />
+        <meta name="keywords" content="Mohammad Sahil, Mohd Sahil, Mo Sahil, Sahil,  M Sahil, vriddhinitr, vriddhi, DevDribble,dev dribble, fest, festnitr, nitr,nitrkl,nitrourkela,nit,rourkela,nit rourkela,nitr developer, developer, nitr mern developer" />
         <meta name="description" content="Mohammad Sahil Portfolio Website" />
-        
+
         {/* *********** Meta Facebook SEO***********  */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tsharpsahil.tech/" />
@@ -36,27 +36,26 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-    <div className={styles.layout_container}>
+      <div className={styles.layout_container}>
         <div className={styles.layout_margin}>
-            <div className={styles.layout_topbar}>
-            <IconButton onClick={() => setSidebarD(prev => ( prev === "none" ? "block" : "none"))} style={{color: "white"}}><MoreVertIcon style={{marginLeft: "18px",fontSize: "28px"}}/></IconButton>
-            <IconButton  onClick={() => setNavbarD(prev => ( prev === "none" ? "block" : "none"))} style={{color: "white", marginRight: 0, marginLeft: "auto"}}><MenuOpenIcon style={{marginLeft: "auto", marginRight: "18px",fontSize: "28px"}}/></IconButton>
-            </div>
-            <div className="layout_margin_container d-flex">
+          <div className={styles.layout_topbar}>
+            <IconButton onClick={() => setSidebarD(prev => (prev === "none" ? "block" : "none"))} style={{ color: "white" }}><MoreVertIcon style={{ marginLeft: "18px", fontSize: "28px" }} /></IconButton>
+            <IconButton onClick={() => setNavbarD(prev => (prev === "none" ? "block" : "none"))} style={{ color: "white", marginRight: 0, marginLeft: "auto" }}><MenuOpenIcon style={{ marginLeft: "auto", marginRight: "18px", fontSize: "28px" }} /></IconButton>
+          </div>
+          <div className="layout_margin_container d-flex" style={{ borderRadius: "0.6rem", overflow: "hidden" }}>
             <Sidebar
               display={sidebarD}
-              />
+            />
             <div className={styles.home_container}>
-            {children}
-                {/* <div className={styles.force_overflow}></div> */}
+              {children}
             </div>
-              <Navbar
-                display={navbarD}
-              />
-            </div>
+            <Navbar
+              display={navbarD}
+            />
+          </div>
         </div>
-        <Chat/>
-    </div>
+        <Chat />
+      </div>
     </>
   )
 }
