@@ -1,6 +1,6 @@
 <div align="center">
 <h1>💻💻 My Portfolio Website 💻💻</h1>
-<img src="https://res.cloudinary.com/dsg5sww1c/image/upload/v1745648812/Screenshot_6_day9ms.png" alt="Preview Image" />
+<img src="https://res.cloudinary.com/dsg5sww1c/image/upload/v1750242046/Screenshot_35_kzefjf.png" alt="Preview Image" />
 </div>
 <hr/>
 
