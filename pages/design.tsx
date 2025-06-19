@@ -24,8 +24,8 @@ export default function Home() {
             <DesignC
               title1="CodeHub Logo"
               title2="Enigma Series"
-              para1="Sadie never took her eyes off me. She had a dark soul."
-              para2="Sadie never took her eyes off me. She had a dark soul."
+              // para1="Sadie never took her eyes off me. She had a dark soul."
+              // para2="Sadie never took her eyes off me. She had a dark soul."
               imgLink1={codehub.src}
               imgLink2={pes.src}
               linkA="#"
@@ -34,8 +34,8 @@ export default function Home() {
             <DesignC
               title1="Orienatation"
               title2="Day against Nuclear Tests"
-              para1="Sadie never took her eyes off me. She had a dark soul."
-              para2="Sadie never took her eyes off me. She had a dark soul."
+              // para1="Sadie never took her eyes off me. She had a dark soul."
+              // para2="Sadie never took her eyes off me. She had a dark soul."
               imgLink1={orientation.src}
               imgLink2={stop.src}
               linkA="#"
@@ -44,8 +44,8 @@ export default function Home() {
             <DesignC
               title1="Teachers' Day"
               title2="LGBTQ+"
-              para1="Sadie never took her eyes off me. She had a dark soul."
-              para2="Sadie never took her eyes off me. She had a dark soul."
+              // para1="Sadie never took her eyes off me. She had a dark soul."
+              // para2="Sadie never took her eyes off me. She had a dark soul."
               imgLink1={teachers.src}
               imgLink2={rainbow.src}
               linkA="#"
@@ -54,8 +54,8 @@ export default function Home() {
             <DesignC
               title1="NITR Alumni"
               title2="Social Media Posters"
-              para1="Sadie never took her eyes off me. She had a dark soul."
-              para2="Sadie never took her eyes off me. She had a dark soul."
+              // para1="Sadie never took her eyes off me. She had a dark soul."
+              // para2="Sadie never took her eyes off me. She had a dark soul."
               imgLink1={nitraa.src}
               imgLink2={smd.src}
               linkA="#"
