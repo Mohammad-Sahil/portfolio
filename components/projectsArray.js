@@ -18,7 +18,7 @@ import masterjiadmin from '../public/project/masterjiadmin.png'
 import talentz from '../public/project/talentz.png'
 import ebsb from '../public/project/ebsb.png'
 import nss from '../public/project/nss.png'
-import noimage from '../public/project/noimage.jpg'
+import focapp from '../public/project/focapp.png'
 
 
 const projectsArray = [
@@ -89,7 +89,7 @@ const projectsArray = [
         tag4: "Go Router",
         tag5: "Localization",
         tag6: "API Integration",
-        projectImg: noimage.src,
+        projectImg: focapp.src,
         cat: "mobile"
     },
     {
