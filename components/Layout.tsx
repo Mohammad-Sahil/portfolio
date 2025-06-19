@@ -16,26 +16,66 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Mohammad Sahil | Portfolio</title>
+        <title>Mohammad Sahil | Full Stack Developer Portfolio</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta httpEquiv="x-ua-compatible" content="IE=edge" />
         <link rel="icon" href="/favicon.ico" />
 
-        {/* *********** Meta SEO***********  */}
-        <meta property="og:title" content="Sahil has a keen interest in building highly scalable full stack web applications, he is an undergrad, pursuing Int MSc(5 year program) in Life Science at National Institute of Technology Rourkela. Founder and President of Club DevDribble at NIT Rourkela" />
-        <meta name="keywords" content="Mohammad Sahil, Mohd Sahil, Mo Sahil, Sahil,  M Sahil, vriddhinitr, vriddhi, DevDribble,dev dribble, fest, festnitr, nitr,nitrkl,nitrourkela,nit,rourkela,nit rourkela,nitr developer, developer, nitr mern developer" />
-        <meta name="description" content="Mohammad Sahil Portfolio Website" />
+        {/* *********** Primary Meta Tags *********** */}
+        <meta name="title" content="Mohammad Sahil | Full Stack Developer Portfolio" />
+        <meta name="description" content="I'm Mohammad Sahil — a passionate full stack developer skilled in React, Next.js, Node.js, Firebase, Flutter & more. I've led production-ready projects and built scalable dashboards, admin panels, and mobile apps." />
+        <meta name="keywords" content="Mohammad Sahil, Full Stack Developer, React Developer, Next.js, Flutter Developer, Node.js Developer, Firebase, GCP, AWS, Typescript Developer, Dashboard Developer, Admin Panel, Portfolio" />
+        <meta name="author" content="Mohammad Sahil" />
 
-        {/* *********** Meta Facebook SEO***********  */}
+        {/* *********** Open Graph / Facebook *********** */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://tsharpsahil.tech/" />
-        <meta property="og:image" content="https://tsharpsahil.tech/waimg.png" />
+        <meta property="og:url" content="https://tsharpsahil.vercel.app/" />
+        <meta property="og:title" content="Mohammad Sahil | Full Stack Developer Portfolio" />
+        <meta property="og:description" content="Experienced in React, Next.js, Firebase, Flutter & more — building scalable web and mobile platforms." />
+        <meta property="og:image" content="https://tsharpsahil.vercel.app/waimg.png" />
         <meta property="og:image:width" content="806" />
-        <meta property="og:image:height" content="280" /> <meta name="description" content="Mohammad Sahil" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:image:height" content="280" />
+
+        {/* *********** Twitter Card *********** */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://tsharpsahil.vercel.app/" />
+        <meta name="twitter:title" content="Mohammad Sahil | Full Stack Developer Portfolio" />
+        <meta name="twitter:description" content="React, Next.js, Firebase, Flutter & more — building production-ready platforms and real-time dashboards." />
+        <meta name="twitter:image" content="https://tsharpsahil.vercel.app/waimg.png" />
       </Head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Mohammad Sahil",
+            "alternateName": ["Mohd Sahil", "M Sahil", "Mo Sahil"],
+            "url": "https://tsharpsahil.vercel.app/",
+            "image": "https://tsharpsahil.vercel.app/waimg.png",
+            "jobTitle": "Full Stack Developer",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Freelance | Focus-on-Concepts | Just-Speak | Talentz | Masterji Tailor | Vriddhi NITR | NITR | DevDribble | E-cell NITR",
+            },
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "National Institute of Technology Rourkela"
+            },
+            "sameAs": [
+              "https://github.com/Mohammad-Sahil",
+              "https://www.linkedin.com/in/tsharpsahilemeja/",
+              "https://x.com/tsharpsahil"
+            ],
+            "knowsAbout": [
+              "React.js", "Next.js", "Node.js", "Firebase", "Flutter", "GCP", "AWS", "TypeScript", "Full Stack Development", "Web Development", "Mobile App Development"
+            ],
+            "description": "I'm Mohammad Sahil — a passionate full stack developer skilled in React, Next.js, Node.js, Firebase, Flutter & more. I build scalable dashboards, admin panels, and mobile apps."
+          })
+        }}
+      />
+
       <div className={styles.layout_container}>
         <div className={styles.layout_margin}>
           <div className={styles.layout_topbar}>

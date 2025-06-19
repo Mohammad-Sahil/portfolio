@@ -98,7 +98,7 @@ const Project: React.FC<ProjectProps> = (props) => {
         border: 'none',
         fontSize: '0.875rem',
         transition: 'all 0.3s ease',
-        boxShadow: '0 4px 12px rgba(71, 85, 105, 0.3)',
+        // boxShadow: '0 4px 12px rgba(71, 85, 105, 0.3)',
         textTransform: 'uppercase' as const,
         letterSpacing: '0.5px'
     };
